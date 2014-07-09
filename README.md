@@ -4,6 +4,7 @@ gpx_to_dotwalker_xml
 ( home is currently at https://github.com/mnalis/gpx_to_dotwalker_xml )
 
 Creates XML for Dotwalker (GPS application for blind people) from .gpx
+You will need perl and XML::LibXML module.
 
 Instructions:
 1) create .gpx routing file in extended format (or you'll miss turn directions)
@@ -13,3 +14,5 @@ Instructions:
 
 3) insert output.xml to Dotwalker 
 
+
+There is also web CGI version gpx2dotwalker.cgi.
