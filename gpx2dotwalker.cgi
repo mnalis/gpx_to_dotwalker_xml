@@ -29,7 +29,7 @@ my $gpx_fd = upload('gpx_file');
 if (defined $gpx_fd) {			# gpx file uploaded, process it
 	my $gpx_remotefilename = param('gpx_file');
 
-	my $gpx_localfilename = $gpx_remotefilename; $gpx_localfilename =~ s{^(?:.*[/\\])?(.+?)(?:\.gpx|\.xml)$}{$1.xml};
+	my $gpx_localfilename = $gpx_remotefilename; $gpx_localfilename =~ s{^(?:.*[/\\])?(.+?)(?:\.gpx|\.xml)$}{${1}_dotwalker.xml};
 #	print header (-type => 'application/octet-stream');
 #	print header (-type => 'application/xml', -charset => 'utf-8');
 	print header (-type => 'application/xml', -charset => 'utf-8', -Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
