@@ -19,7 +19,7 @@ my $DEBUG = 0;
 my $whitespace = 0;	# 1/2 for debug, 0 for production (no spaces)
 
 use XML::LibXML;
-local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
+local $XML::LibXML::setTagCompression = 0;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
 binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
 my $VERSION = '0.3';
