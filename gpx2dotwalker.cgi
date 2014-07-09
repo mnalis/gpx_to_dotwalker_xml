@@ -42,7 +42,7 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	start_form,
 	'Select GPX file',
 	filefield (-name => 'gpx_file'),
-	submit (-name => 'Upload GPX', -value => '1'),
+	submit (-name => 'Upload GPX'),
 	end_form,
 	p($AUTHOR . br . $CREDITS),
 	end_html;
