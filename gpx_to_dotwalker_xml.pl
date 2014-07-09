@@ -3,11 +3,12 @@
 # by Matija Nalis <mnalis-blind@voyager.hr> GPLv3+ started 2014-07-09
 # home at https://github.com/mnalis/gpx_to_dotwalker_xml
 #
+# command line version
+#
 # Creates XML for Dotwalker (GPS application for blind people) from .gpx
 # Use extended format routing GPX  from for example http://graphhopper.com/maps/
 #
-# FIXME - required perl modules and build instructions
-# FIXME - do a web version
+# requires XML::LibXML perl module ("apt-get install libxml-libxml-perl")
 
 use strict;
 use warnings;
