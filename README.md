@@ -16,3 +16,5 @@ Instructions:
 
 
 There is also web CGI version gpx2dotwalker.cgi.
+
+see http://mnalis.com/blind/g2dot/gpx2dotwalker.cgi for online working version.
