@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Route>
+  <Point>
+    <Title>continue onto Ozaljska ulica, 1031</Title>
+    <Lat>45.798357</Lat>
+    <Lng>15.946818</Lng>
+    <Description></Description>
+  </Point>
+  <Point>
+    <Title>turn left onto Selska cesta, 1011</Title>
+    <Lat>45.797734</Lat>
+    <Lng>15.943223</Lng>
+    <Description></Description>
+  </Point>
+  <Point>
+    <Title>turn right onto Zagrebačka avenija</Title>
+    <Lat>45.794222</Lat>
+    <Lng>15.944057</Lng>
+    <Description></Description>
+  </Point>
+  <Point>
+    <Title>continue onto Zagrebačka avenija, 1035</Title>
+    <Lat>45.793972</Lat>
+    <Lng>15.941553</Lng>
+    <Description></Description>
+  </Point>
+  <Point>
+    <Title>turn left onto Rudeška cesta, 10041</Title>
+    <Lat>45.795367</Lat>
+    <Lng>15.919512</Lng>
+    <Description></Description>
+  </Point>
+  <Point>
+    <Title>turn right onto Listopadska ulica</Title>
+    <Lat>45.793749</Lat>
+    <Lng>15.917982</Lng>
+    <Description></Description>
+  </Point>
+  <Point>
+    <Title></Title>
+    <Lat>45.793749</Lat>
+    <Lng>15.917982</Lng>
+    <Description></Description>
+  </Point>
+</Route>
