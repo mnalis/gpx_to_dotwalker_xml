@@ -12,10 +12,13 @@
 use strict;
 use warnings;
 use autodie;
+use diagnostics;
 
-my $VERSION = '0.1';
+my $DEBUG = 1;
+binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
 use XML::LibXML;
+my $VERSION = '0.2';
 
 my $fname_GPX = $ARGV[0];
 my $fname_XML = $ARGV[1];
@@ -41,5 +44,5 @@ foreach my $rtept (@rte) {
   my $lon = $rtept->getAttribute('lon');
   my $desc = $rtept->getElementsByTagName('desc')->string_value;
   
-  print "lat=$lat, lon=$lon desc=$desc\n";
+  $DEBUG && print "parsing RTEPT: lat=$lat, lon=$lon desc=$desc\n";
 }
