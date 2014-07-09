@@ -1,6 +1,8 @@
 gpx_to_dotwalker_xml
 ====================
 
+( home is currently at https://github.com/mnalis/gpx_to_dotwalker_xml )
+
 Creates XML for Dotwalker (GPS application for blind people) from .gpx
 
 Instructions:
