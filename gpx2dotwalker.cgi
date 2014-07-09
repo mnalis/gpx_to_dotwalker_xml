@@ -31,8 +31,8 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 
 	my $gpx_localfilename = $gpx_remotefilename; $gpx_localfilename =~ s{^.*[/\\](.+?)(?:gpx|xml)$}{$1.xml};
 #	print header (-type => 'application/octet-stream');
-	print header (-type => 'application/xml', -charset => 'utf-8');
-	print header (-Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
+#	print header (-type => 'application/xml', -charset => 'utf-8');
+	print header (-type => 'application/xml', -charset => 'utf-8', -Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
 
 	my $gpx_tmpfilename = tmpFileName($gpx_remotefilename);
 	exec ('/usr/bin/perl', $g2x_path, $gpx_tmpfilename, '-'); 
