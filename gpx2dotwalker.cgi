@@ -22,6 +22,7 @@ $| = 1;
 die "can't find $g2x_path" unless -r $g2x_path;
 
 my $AUTHOR = 'Written by ' . a({-href => 'mailto:mnalis-blind@voyager.hr'}, 'Matija Nalis') . ' of ' . a({-href => 'http://biciklijade.com/'}, 'biciklijade.com') . ' fame (not affiliated with Dotwalker).';
+my $SOURCE = 'Source code ' . a({-href => 'https://github.com/mnalis/gpx_to_dotwalker_xml'}, 'released') . ' under GPLv3 or higher.';
 my $CREDITS = 'Kindly hosted by ' . a({-href => 'http://voyager.hr/'}, 'Voyager.hr');	# change this when you host elsewhere
 
 my $gpx_fd = upload('gpx_file');
@@ -49,7 +50,7 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	filefield (-name => 'gpx_file'),
 	submit (-label => 'Upload GPX'),
 	end_form,
-	p($AUTHOR . br . $CREDITS),
+	p($AUTHOR . br . $SOURCE . br . $CREDITS),
 	end_html;
 }
 
