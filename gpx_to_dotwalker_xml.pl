@@ -29,12 +29,10 @@ my $fname_XML = $ARGV[1];
 if (!defined ($fname_GPX) or !defined($fname_XML)) {
     print "gpx_to_dotwalker_xml.pl v$VERSION\n";
     print "Usage: $0 <input.GPX> <output.XML>\n\n";
+    print "input or/and output file can be '-', signifying stdin/stdout\n";
     print "This program Creates XML for Dotwalker from .GPX\n";
     exit 1;
 }
-
-die "source GPX file $fname_GPX is not readable, aborting" unless -r "$fname_GPX";
-die "destination XML file $fname_XML already exists, aborting" if -e "$fname_XML";
 
 # create empty dotwalker .xml 
 my $xmldom = XML::LibXML::Document->new('1.0', 'utf-8');
