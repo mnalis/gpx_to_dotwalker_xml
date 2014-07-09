@@ -27,8 +27,13 @@ my $CREDITS = 'Kindly hosted by ' . a({-href => 'http://voyager.hr/'}, 'Voyager.
 my $gpx_fd = upload('gpx_file');
 
 if (defined $gpx_fd) {			# gpx file uploaded, process it
-	print header (-type => 'application/xml', -charset => 'utf-8');
 	my $gpx_remotefilename = param('gpx_file');
+
+	my $gpx_localfilename = $gpx_remotefilename; $gpx_localfilename =~ s{^.*[/\\](.+?)(?:gpx|xml)$}{$1.xml};
+#	print header (-type => 'application/octet-stream');
+	print header (-type => 'application/xml', -charset => 'utf-8');
+	print header (-Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
+
 	my $gpx_tmpfilename = tmpFileName($gpx_remotefilename);
 	exec ('/usr/bin/perl', $g2x_path, $gpx_tmpfilename, '-'); 
 	die "should never reach here; did $g2x_path fail? $?";
