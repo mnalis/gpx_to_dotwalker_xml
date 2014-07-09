@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="Graphhopper" version="1.1" >
+<metadata>
+	<link href="http://graphhopper.com"><text>GraphHopper GPX</text></link>
+	<time>2014-07-09T11:20:52+00:00</time>
+</metadata>
+
+<trk>
+<name>GraphHopper Track</name>
+<trkseg>
+<trkpt lat="45.798357" lon="15.946818"><time>2014-07-09T11:20:52+00:00</time></trkpt>
+<trkpt lat="45.797766" lon="15.943412"><time>2014-07-09T11:21:08+00:00</time></trkpt>
+<trkpt lat="45.797734" lon="15.943223"><time>2014-07-09T11:21:09+00:00</time></trkpt>
+<trkpt lat="45.79743" lon="15.943302"><time>2014-07-09T11:21:11+00:00</time></trkpt>
+<trkpt lat="45.796882" lon="15.943483"><time>2014-07-09T11:21:15+00:00</time></trkpt>
+<trkpt lat="45.794765" lon="15.944082"><time>2014-07-09T11:21:29+00:00</time></trkpt>
+<trkpt lat="45.794354" lon="15.944036"><time>2014-07-09T11:21:32+00:00</time></trkpt>
+<trkpt lat="45.794222" lon="15.944057"><time>2014-07-09T11:21:33+00:00</time></trkpt>
+<trkpt lat="45.79418" lon="15.943435"><time>2014-07-09T11:21:36+00:00</time></trkpt>
+<trkpt lat="45.794065" lon="15.94224"><time>2014-07-09T11:21:42+00:00</time></trkpt>
+<trkpt lat="45.793972" lon="15.941553"><time>2014-07-09T11:21:45+00:00</time></trkpt>
+<trkpt lat="45.793959" lon="15.940897"><time>2014-07-09T11:21:49+00:00</time></trkpt>
+<trkpt lat="45.793983" lon="15.937218"><time>2014-07-09T11:22:07+00:00</time></trkpt>
+<trkpt lat="45.79403" lon="15.935669"><time>2014-07-09T11:22:15+00:00</time></trkpt>
+<trkpt lat="45.794322" lon="15.931316"><time>2014-07-09T11:22:37+00:00</time></trkpt>
+<trkpt lat="45.794425" lon="15.930271"><time>2014-07-09T11:22:43+00:00</time></trkpt>
+<trkpt lat="45.795028" lon="15.923073"><time>2014-07-09T11:23:20+00:00</time></trkpt>
+<trkpt lat="45.79518" lon="15.921742"><time>2014-07-09T11:23:26+00:00</time></trkpt>
+<trkpt lat="45.795347" lon="15.919743"><time>2014-07-09T11:23:37+00:00</time></trkpt>
+<trkpt lat="45.795367" lon="15.919512"><time>2014-07-09T11:23:38+00:00</time></trkpt>
+<trkpt lat="45.794306" lon="15.919398"><time>2014-07-09T11:23:46+00:00</time></trkpt>
+<trkpt lat="45.794134" lon="15.919137"><time>2014-07-09T11:23:48+00:00</time></trkpt>
+<trkpt lat="45.793799" lon="15.918131"><time>2014-07-09T11:23:55+00:00</time></trkpt>
+<trkpt lat="45.793749" lon="15.917982"><time>2014-07-09T11:23:56+00:00</time></trkpt>
+<trkpt lat="45.793749" lon="15.917982"><time>2014-07-09T11:23:56+00:00</time></trkpt>
+</trkseg>
+</trk>
+
+<rte>
+
+<rtept lat="45.798357" lon="15.946818">
+	<desc>continue onto Ozaljska ulica, 1031</desc>
+	<extensions>
+		<distance>287.187</distance>
+		<time>17231</time>
+		<direction>W</direction>
+		<azimuth>261</azimuth>
+	</extensions>
+</rtept>
+
+<rtept lat="45.797734" lon="15.943223"><desc>turn left onto Selska cesta, 1011</desc><extensions><distance>397.454</distance><time>23844</time><direction>S</direction><azimuth>166</azimuth></extensions></rtept>
+<rtept lat="45.794222" lon="15.944057"><desc>turn right onto Zagrebačka avenija</desc><extensions><distance>196.205</distance><time>12841</time><direction>W</direction><azimuth>267</azimuth></extensions></rtept>
+<rtept lat="45.793972" lon="15.941553"><desc>continue onto Zagrebačka avenija, 1035</desc><extensions><distance>1717.949</distance><time>112439</time><direction>W</direction><azimuth>269</azimuth></extensions></rtept>
+<rtept lat="45.795367" lon="15.919512"><desc>turn left onto Rudeška cesta, 10041</desc><extensions><distance>245.387</distance><time>17665</time><direction>S</direction><azimuth>186</azimuth></extensions></rtept>
+<rtept lat="45.793749" lon="15.917982"><desc>turn right onto Listopadska ulica</desc><extensions><distance>0.02</distance><time>2</time><direction>NW</direction><azimuth>319</azimuth></extensions></rtept>
+<rtept lat="45.793749" lon="15.917982"><extensions><distance>0.0</distance><time>0</time><direction></direction><azimuth></azimuth></extensions></rtept>
+
+</rte>
+</gpx>
