@@ -51,7 +51,7 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	print header (-charset => 'utf-8'),
 	start_html (-title => 'GPX to Dotwalker XML converter'),
 	h1("GPX to Dotwalker XML converter $VERSION" ),
-	'Input .GPX file should be in routing extended format with descriptions, like the one from ', a({-href => 'http://graphhopper.com/maps/'}, 'GraphHopper.com'),
+	'Input .GPX file should be in extended format with descriptions, like the one from ', a({-href => 'http://graphhopper.com/maps/'}, 'GraphHopper.com'),
 	br,
 	'Output will be routing .XML file for Dotwalker Android GPS application (you must save it in Dotwalker as "route.xml")',
 	start_form,
