@@ -7,6 +7,10 @@
 #
 # requires gpx_to_dotwalker_xml.pl and its dependencies (and CGI perl module)
 
+# FIXME convert standalone perl converter to can be also be used as module (to avoid ugly exec and handle errors)
+# FIXME add error handling (if not GPX file, or if no waypoints extracted)
+# FIXME add gpsbabel support for more file types (as needed)
+
 use warnings;
 use strict;
 use autodie qw(:default exec);
