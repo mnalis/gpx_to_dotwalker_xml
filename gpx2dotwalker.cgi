@@ -59,7 +59,7 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	br,
 	'Output will be routing .XML file for Dotwalker Android GPS application (you must save it in Dotwalker as "route.xml")',
 	start_form,
-	'Select GPX file',
+	h2('Select GPX file'),
 	filefield (-name => 'gpx_file'),
 	submit (-label => 'Upload GPX'),
 	end_form,
