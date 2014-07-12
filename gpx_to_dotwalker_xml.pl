@@ -9,6 +9,8 @@
 # Use extended format routing GPX  from for example http://graphhopper.com/maps/
 #
 # requires XML::LibXML perl module ("apt-get install libxml-libxml-perl")
+#
+# FIXME - move to SAX for less memory usage and faster processing on bigger XMLs?
 
 use strict;
 use warnings;
@@ -16,7 +18,7 @@ use autodie;
 #use diagnostics;
 
 my $DEBUG = 0;
-my $whitespace = 0;	# 1/2 for debug, 0 for production (no spaces)
+my $whitespace = 1;	# 1/2 for debug, 0 for production (no spaces)
 
 use XML::LibXML;
 local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
@@ -35,15 +37,14 @@ if (!defined ($fname_GPX) or !defined($fname_XML)) {
     exit 1;
 }
 
+# parse given .gpx
+my $gpxdom = XML::LibXML->load_xml (location => $fname_GPX, recover => 1, no_network => 1) or die "can't parse $fname_GPX";
+
 # create empty dotwalker .xml
- 
 my $xmldom = XML::LibXML::Document->new('1.0', 'utf-8');
 $xmldom->setStandalone(1);
 my $xmlroot = $xmldom->createElement('Route');
 
-# parse given .gpx
-my $parser = XML::LibXML->new();
-my $gpxdom = $parser->parse_file($fname_GPX);
 
 # there are three types of GPX, try them in preference: Route, Waypoints, Track
 # see http://en.wikipedia.org/wiki/GPS_Exchange_Format
