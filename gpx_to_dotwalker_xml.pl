@@ -22,7 +22,7 @@ use XML::LibXML;
 local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
 binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
-my $VERSION = '0.3';
+my $VERSION = '0.4';
 
 my $fname_GPX = $ARGV[0];
 my $fname_XML = $ARGV[1];
