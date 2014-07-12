@@ -26,6 +26,18 @@ binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
 my $VERSION = '0.4';
 
+# returns title and description
+sub get_title_desc($) {  
+  my ($point) = @_;
+  # FIXME: do this smarter. take list of prefered tags, and put first in <title>, and second in <description>
+  my $title = $point->getElementsByTagName('desc')->string_value;
+  if (!$title) { $title = $point->getElementsByTagName('name')->string_value; }
+  if (!$title) { $title = $point->getElementsByTagName('cmt')->string_value; }
+  
+  my $desc = '';	# FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
+  return ($title, $desc);
+}
+
 my $fname_GPX = $ARGV[0];
 my $fname_XML = $ARGV[1];
 
@@ -59,12 +71,9 @@ foreach my $point (@route) {
   my $lat = $point->getAttribute('lat');
   my $lon = $point->getAttribute('lon');
   
-  # FIXME: do this smarter. take list of prefered tags, and put first in <title>, and second in <description>
-  my $title = $point->getElementsByTagName('desc')->string_value;
-  if (!$title) { $title = $point->getElementsByTagName('name')->string_value; }
-  if (!$title) { $title = $point->getElementsByTagName('cmt')->string_value; }
   
-  my $desc = '';	# FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
+  my ($title, $desc) = get_title_desc($point);
+  
   
   $DEBUG && print "parsing RTEPT: lat=$lat, lon=$lon title=$title desc=$desc\n";
 
