@@ -68,12 +68,12 @@ foreach my $point (@route) {
   
   $DEBUG && print "parsing RTEPT: lat=$lat, lon=$lon title=$title desc=$desc\n";
 
-  my $x_point = $xmldom->createElement('Point');
-  my $x_title = $xmldom->createElement('Title'); $x_title->appendTextNode($title); $x_point->appendChild($x_title);
-  my $x_lat = $xmldom->createElement('Lat'); $x_lat->appendTextNode($lat); $x_point->appendChild($x_lat);
-  my $x_lon = $xmldom->createElement('Lng'); $x_lon->appendTextNode($lon); $x_point->appendChild($x_lon);
-  my $x_desc = $xmldom->createElement('Description'); $x_desc->appendTextNode($desc); $x_point->appendChild($x_desc);
-  $xmlroot->appendChild($x_point);
+  my $newPoint = $xmldom->createElement('Point');
+  $newPoint->appendTextChild('Title', $title);
+  $newPoint->appendTextChild('Lat', $lat);
+  $newPoint->appendTextChild('Lng', $lon);
+  $newPoint->appendTextChild('Description', $desc);
+  $xmlroot->appendChild($newPoint);
 }
 
 
