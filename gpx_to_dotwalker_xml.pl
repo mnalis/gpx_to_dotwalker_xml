@@ -24,17 +24,25 @@ use XML::LibXML;
 local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
 binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
-my $VERSION = '0.4';
+my $VERSION = '0.5';
 
-# returns title and description
-sub get_title_desc($) {  
+# returns title and description (as first and second preferred tags)
+sub get_title_desc($) {
   my ($point) = @_;
-  # FIXME: do this smarter. take list of prefered tags, and put first in <title>, and second in <description>
-  my $title = $point->getElementsByTagName('desc')->string_value;
-  if (!$title) { $title = $point->getElementsByTagName('name')->string_value; }
-  if (!$title) { $title = $point->getElementsByTagName('cmt')->string_value; }
+  my $title = '';
+  my $desc = '';
   
-  my $desc = '';	# FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
+  # FIXME: do this smarter. take list of prefered tags, and put first in <title>, and second in <description>
+  my $tmp = $point->getElementsByTagName('desc')->string_value;
+  if ($tmp) { if (!$title) { $title = $tmp } elsif (!$desc) { $desc = $tmp } else { return ($title, $desc) } }
+  
+  $tmp = $point->getElementsByTagName('name')->string_value;
+  if ($tmp) { if (!$title) { $title = $tmp } elsif (!$desc) { $desc = $tmp } else { return ($title, $desc) } }
+
+  $tmp = $point->getElementsByTagName('cmt')->string_value;
+  if ($tmp) { if (!$title) { $title = $tmp } elsif (!$desc) { $desc = $tmp } else { return ($title, $desc) } }
+  
+  # FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
   return ($title, $desc);
 }
 
@@ -70,10 +78,7 @@ foreach my $point (@route) {
   use Data::Dumper;
   my $lat = $point->getAttribute('lat');
   my $lon = $point->getAttribute('lon');
-  
-  
   my ($title, $desc) = get_title_desc($point);
-  
   
   $DEBUG && print "parsing RTEPT: lat=$lat, lon=$lon title=$title desc=$desc\n";
 
