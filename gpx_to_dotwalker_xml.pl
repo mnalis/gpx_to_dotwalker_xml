@@ -33,20 +33,29 @@ sub get_title_desc($) {
   my $desc = '';
   
   # fills first or second reference with next most preferred tag (depending which one is already filled)
-  sub try_next($$$) {
-    my ($ref1, $ref2, $tmp) = @_;
-    if ($tmp) {
-      if (!$$ref1) { $$ref1 = $tmp; } 
-      elsif (!$$ref2) { $$ref2 = $tmp; return 0; } 	# if we've filled second param, we're finished.
+  sub try_next($$$$$) {
+    my ($ref1, $ref2, $pre, $post, $value) = @_;
+    if ($value) {
+      $value = "$pre $value" if $pre;
+      $value .= $post if ($post);
+      if (!$$ref1) {
+        $$ref1 = $value;
+      } elsif (!$$ref2) {
+        $$ref2 = $value;
+      } else {
+        $$ref2 .= ", $value";
+      }
     }
-    return 1;	# no param in this run, or only first param filled: we need to try another round.
   }
   
-  try_next (\$title, \$desc, $point->getElementsByTagName('desc')->string_value) or return ($title, $desc);
-  try_next (\$title, \$desc, $point->getElementsByTagName('name')->string_value) or return ($title, $desc);
-  try_next (\$title, \$desc, $point->getElementsByTagName('cmt')->string_value)  or return ($title, $desc);
+  try_next (\$title, \$desc, '', '',  $point->getElementsByTagName('desc')->string_value);
+  try_next (\$title, \$desc, '', '', $point->getElementsByTagName('name')->string_value);
+  try_next (\$title, \$desc, '', '', $point->getElementsByTagName('cmt')->string_value);
   
-  # FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
+  my $ext = ($point->getElementsByTagName('extensions'))[0];	# there should only be one extensions block
+  try_next (\$title, \$desc, 'direction', '', $ext->getElementsByTagName('direction')->string_value);
+  try_next (\$title, \$desc, 'distance', 'm', int($ext->getElementsByTagName('distance')->string_value));
+  
   return ($title, $desc);
 }
 
@@ -84,7 +93,7 @@ foreach my $point (@route) {
   my $lon = $point->getAttribute('lon');
   my ($title, $desc) = get_title_desc($point);
   
-  $DEBUG && print "parsing RTEPT: lat=$lat, lon=$lon title=$title desc=$desc\n";
+  $DEBUG && print "parsing POINT: lat=$lat, lon=$lon title=$title desc=$desc\n";
 
   my $newPoint = $xmldom->createElement('Point');
   $newPoint->appendTextChild('Title', $title);
