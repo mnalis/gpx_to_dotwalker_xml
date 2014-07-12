@@ -32,15 +32,19 @@ sub get_title_desc($) {
   my $title = '';
   my $desc = '';
   
-  # FIXME: do this smarter. take list of prefered tags, and put first in <title>, and second in <description>
-  my $tmp = $point->getElementsByTagName('desc')->string_value;
-  if ($tmp) { if (!$title) { $title = $tmp } elsif (!$desc) { $desc = $tmp } else { return ($title, $desc) } }
+  # fills first or second reference with next most preferred tag (depending which one is already filled)
+  sub try_next($$$) {
+    my ($ref1, $ref2, $tmp) = @_;
+    if ($tmp) {
+      if (!$$ref1) { $$ref1 = $tmp; } 
+      elsif (!$$ref2) { $$ref2 = $tmp; return 0; } 	# if we've filled second param, we're finished.
+    }
+    return 1;	# no param in this run, or only first param filled: we need to try another round.
+  }
   
-  $tmp = $point->getElementsByTagName('name')->string_value;
-  if ($tmp) { if (!$title) { $title = $tmp } elsif (!$desc) { $desc = $tmp } else { return ($title, $desc) } }
-
-  $tmp = $point->getElementsByTagName('cmt')->string_value;
-  if ($tmp) { if (!$title) { $title = $tmp } elsif (!$desc) { $desc = $tmp } else { return ($title, $desc) } }
+  try_next (\$title, \$desc, $point->getElementsByTagName('desc')->string_value) or return ($title, $desc);
+  try_next (\$title, \$desc, $point->getElementsByTagName('name')->string_value) or return ($title, $desc);
+  try_next (\$title, \$desc, $point->getElementsByTagName('cmt')->string_value)  or return ($title, $desc);
   
   # FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
   return ($title, $desc);
