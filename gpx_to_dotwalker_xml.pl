@@ -16,7 +16,7 @@ use autodie;
 #use diagnostics;
 
 my $DEBUG = 0;
-my $whitespace = 0;	# 1/2 for debug, 0 for production (no spaces)
+my $whitespace = 1;	# 1/2 for debug, 0 for production (no spaces)
 
 use XML::LibXML;
 local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
@@ -35,7 +35,8 @@ if (!defined ($fname_GPX) or !defined($fname_XML)) {
     exit 1;
 }
 
-# create empty dotwalker .xml 
+# create empty dotwalker .xml
+ 
 my $xmldom = XML::LibXML::Document->new('1.0', 'utf-8');
 $xmldom->setStandalone(1);
 my $xmlroot = $xmldom->createElement('Route');
@@ -43,7 +44,12 @@ my $xmlroot = $xmldom->createElement('Route');
 # parse given .gpx
 my $parser = XML::LibXML->new();
 my $gpxdom = $parser->parse_file($fname_GPX);
+
+# there are three types of GPX, try them in preference: Route, Waypoints, Track
+# see http://en.wikipedia.org/wiki/GPS_Exchange_Format
 my @rte = $gpxdom->getElementsByTagName('rtept');
+if (!@rte) { @rte = $gpxdom->getElementsByTagName('wpt'); }
+if (!@rte) { @rte = $gpxdom->getElementsByTagName('trkpt'); }
 
 
 $DEBUG && print "Parsing from GPX $fname_GPX to Dotwalker XML $fname_XML\n\n";
@@ -51,7 +57,12 @@ foreach my $rtept (@rte) {
   use Data::Dumper;
   my $lat = $rtept->getAttribute('lat');
   my $lon = $rtept->getAttribute('lon');
-  my $title = $rtept->getElementsByTagName('desc')->string_value;	# FIXME: does it work if <desc> is not present?
+  
+  # FIXME: do this smarter. take list of prefered tags, and put first in <title>, and second in <description>
+  my $title = $rtept->getElementsByTagName('desc')->string_value;
+  if (!$title) { $title = $rtept->getElementsByTagName('name')->string_value; }
+  if (!$title) { $title = $rtept->getElementsByTagName('cmt')->string_value; }
+  
   my $desc = '';	# FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
   
   $DEBUG && print "parsing RTEPT: lat=$lat, lon=$lon title=$title desc=$desc\n";
