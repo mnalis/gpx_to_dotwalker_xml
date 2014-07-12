@@ -53,8 +53,10 @@ sub get_title_desc($) {
   try_next (\$title, \$desc, '', '', $point->getElementsByTagName('cmt')->string_value);
   
   my $ext = ($point->getElementsByTagName('extensions'))[0];	# there should only be one extensions block
-  try_next (\$title, \$desc, 'direction', '', $ext->getElementsByTagName('direction')->string_value);
-  try_next (\$title, \$desc, 'distance', 'm', int($ext->getElementsByTagName('distance')->string_value));
+  if ($ext) {
+    try_next (\$title, \$desc, 'direction', '', $ext->getElementsByTagName('direction')->string_value);
+    try_next (\$title, \$desc, 'distance', 'm', int($ext->getElementsByTagName('distance')->string_value));
+  }
   
   return ($title, $desc);
 }
