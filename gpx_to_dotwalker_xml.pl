@@ -38,7 +38,7 @@ if (!defined ($fname_GPX) or !defined($fname_XML)) {
 }
 
 # parse given .gpx
-my $gpxdom = XML::LibXML->load_xml (location => $fname_GPX, recover => 1, no_network => 1) or die "can't parse $fname_GPX";
+my $gpxdom = XML::LibXML->load_xml (location => $fname_GPX, no_network => 1) or die "ERROR: can't parse $fname_GPX";
 
 # create empty dotwalker .xml
 my $xmldom = XML::LibXML::Document->new('1.0', 'utf-8');
@@ -78,4 +78,4 @@ foreach my $point (@route) {
 
 
 $xmldom->setDocumentElement($xmlroot);
-$xmldom->toFile($fname_XML, $whitespace) or die "can't write to: $fname_XML";
+$xmldom->toFile($fname_XML, $whitespace) or die "ERROR: can't write to: $fname_XML";
