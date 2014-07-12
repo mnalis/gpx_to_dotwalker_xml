@@ -47,21 +47,21 @@ my $gpxdom = $parser->parse_file($fname_GPX);
 
 # there are three types of GPX, try them in preference: Route, Waypoints, Track
 # see http://en.wikipedia.org/wiki/GPS_Exchange_Format
-my @rte = $gpxdom->getElementsByTagName('rtept');
-if (!@rte) { @rte = $gpxdom->getElementsByTagName('wpt'); }
-if (!@rte) { @rte = $gpxdom->getElementsByTagName('trkpt'); }
+my @route = $gpxdom->getElementsByTagName('rtept');
+if (!@route) { @route = $gpxdom->getElementsByTagName('wpt'); }
+if (!@route) { @route = $gpxdom->getElementsByTagName('trkpt'); }
 
 
 $DEBUG && print "Parsing from GPX $fname_GPX to Dotwalker XML $fname_XML\n\n";
-foreach my $rtept (@rte) {
+foreach my $point (@route) {
   use Data::Dumper;
-  my $lat = $rtept->getAttribute('lat');
-  my $lon = $rtept->getAttribute('lon');
+  my $lat = $point->getAttribute('lat');
+  my $lon = $point->getAttribute('lon');
   
   # FIXME: do this smarter. take list of prefered tags, and put first in <title>, and second in <description>
-  my $title = $rtept->getElementsByTagName('desc')->string_value;
-  if (!$title) { $title = $rtept->getElementsByTagName('name')->string_value; }
-  if (!$title) { $title = $rtept->getElementsByTagName('cmt')->string_value; }
+  my $title = $point->getElementsByTagName('desc')->string_value;
+  if (!$title) { $title = $point->getElementsByTagName('name')->string_value; }
+  if (!$title) { $title = $point->getElementsByTagName('cmt')->string_value; }
   
   my $desc = '';	# FIXME - do something smarter from <extensions> tag (if present) (and check if it works when not present)
   
