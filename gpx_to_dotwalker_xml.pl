@@ -24,7 +24,7 @@ use XML::LibXML;
 local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
 binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
-my $VERSION = '0.6';
+my $VERSION = '0.7';
 
 # returns title and description (as first and second preferred tags)
 sub get_title_desc($) {
@@ -89,11 +89,14 @@ if (!@route) { @route = $gpxdom->getElementsByTagName('trkpt'); }
 
 
 $DEBUG && print "Parsing from GPX $fname_GPX to Dotwalker XML $fname_XML\n\n";
+my $count = 1;
 foreach my $point (@route) {
-  use Data::Dumper;
   my $lat = $point->getAttribute('lat');
   my $lon = $point->getAttribute('lon');
   my ($title, $desc) = get_title_desc($point);
+  
+  if (!$title) { $title = "Point $count" }
+  $count++;
   
   $DEBUG && print "parsing POINT: lat=$lat, lon=$lon title=$title desc=$desc\n";
 
