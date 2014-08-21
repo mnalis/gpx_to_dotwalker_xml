@@ -7,7 +7,7 @@
 #
 # requires gpx_to_dotwalker_xml.pl and its dependencies (and CGI perl module)
 
-# FIXME convert standalone perl converter to can be also be used as module (to avoid ugly exec and handle errors)
+# FIXME convert standalone perl converter so it can be also be used as module (to avoid ugly exec and handle errors)
 # FIXME add error handling (if not GPX file, or if no waypoints extracted)
 # FIXME add gpsbabel support for more file types (as needed)
 
@@ -17,6 +17,7 @@ use autodie qw(:default exec);
 #use diagnostics;
 
 my $g2x_path = './gpx_to_dotwalker_xml.pl';	# make this correct path if not in the same directory
+my $l2g_path = './loadstone_to_gpx.pl';
 my $PERL = '/usr/bin/perl';
 
 use CGI qw(:standard);
@@ -25,6 +26,7 @@ use CGI::Carp qw(fatalsToBrowser);
 $| = 1;
 
 die "can't find $g2x_path" unless -r $g2x_path;
+die "can't find $l2g_path" unless -r $l2g_path;
 
 my $VERSION;
 {
@@ -49,7 +51,14 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	print header (-type => 'application/xml', -charset => 'utf-8', -Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
 
 	my $gpx_tmpfilename = tmpFileName($gpx_remotefilename);
-	exec ($PERL, $g2x_path, $gpx_tmpfilename, '-'); 
+	my $format = detect_format($gpx_tmpfilename);
+	if ($format eq 'gpx') {
+		exec ($PERL, $g2x_path, $gpx_tmpfilename, '-');
+	} elsif ($format eq 'lsdb') {
+		exec "$l2g_path $gpx_tmpfilename - | $g2x_path - -"; # FIXME: exec via perl? FIXME: yeah, single argument exec(), no taint mode... should fix that ASAP. see above about doing it via function calls...
+	} else {
+		die "Unknown file format: $format";
+	}
 	die "should never reach here; did $g2x_path fail? $?";
 } else {				# no params, show form
 	print header (-charset => 'utf-8'),
