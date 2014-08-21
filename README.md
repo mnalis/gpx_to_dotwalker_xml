@@ -17,6 +17,9 @@ Instructions:
 
 There is also web CGI version gpx2dotwalker.cgi.
 
+Also contains loadstone_to_gpx.pl, which converts loadstone .txt ('lsdb') export format to GPX 
+(and from GPX, via gpx_to_dotwalker_xml.pl, you can convert to Dotwalker route.xml)
+
 see http://mnalis.com/blind/g2dot/gpx2dotwalker.cgi for online converter, or set up your own.
 
 Contact Matija Nalis <mnalis-blind@voyager.hr> for ideas for improvement.
