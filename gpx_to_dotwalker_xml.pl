@@ -5,8 +5,9 @@
 #
 # command line version
 #
-# Creates XML for Dotwalker (GPS application for blind people) from .gpx
+# Creates router.XML for Dotwalker from .gpx
 # Use extended format routing GPX  from for example http://graphhopper.com/maps/
+# Dotwalker is GPS application for blind people; http://www.dotwalker.wz.cz/dotwalker_en.html
 #
 # requires XML::LibXML perl module ("apt-get install libxml-libxml-perl")
 #
@@ -24,7 +25,7 @@ use XML::LibXML;
 local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
 binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
-my $VERSION = '0.7';
+my $VERSION = '0.71';
 
 # returns title and description (as first and second preferred tags)
 sub get_title_desc($) {
@@ -110,4 +111,4 @@ foreach my $point (@route) {
 
 
 $xmldom->setDocumentElement($xmlroot);
-$xmldom->toFile($fname_XML, $whitespace) or die "ERROR: can't write to: $fname_XML";
+$xmldom->toFile($fname_XML, $whitespace) or die "ERROR: can't write to: $fname_XML: $!";
