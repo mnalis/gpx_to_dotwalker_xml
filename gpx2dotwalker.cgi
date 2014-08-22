@@ -62,18 +62,16 @@ my $gpx_fd = upload('gpx_file');
 if (defined $gpx_fd) {			# gpx file uploaded, process it
 	my $gpx_remotefilename = param('gpx_file');
 
-	my $gpx_localfilename = $gpx_remotefilename; $gpx_localfilename =~ s{^(?:.*[/\\])?(.+?)(?:\.gpx|\.xml)$}{${1}_dotwalker_route.xml};
+	my $gpx_localfilename = $gpx_remotefilename; $gpx_localfilename =~ s{^(?:.*[/\\])?(.+?)(?:\.gpx|\.xml|\.txt|\.csv)$}{${1}_dotwalker_route.xml}i;
 
 	my $gpx_tmpfilename = tmpFileName($gpx_remotefilename);
 	my $format = detect_format($gpx_tmpfilename);
 
-#	print header (-type => 'application/octet-stream');
-#	print header (-type => 'application/xml', -charset => 'utf-8');
-	print header (-type => 'application/xml', -charset => 'utf-8', -Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
-
 	if ($format eq 'gpx') {
+		print header (-type => 'application/xml', -charset => 'utf-8', -Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
 		exec ($PERL, $g2x_path, $gpx_tmpfilename, '-');
 	} elsif ($format eq 'lsdb') {
+		print header (-type => 'application/xml', -charset => 'utf-8', -Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
 		exec "$l2g_path $gpx_tmpfilename - | $g2x_path - -"; # FIXME: exec via perl? FIXME: yeah, single argument exec(), no taint mode... should fix that ASAP. see above about doing it via function calls...
 	} else {
 		die "Unknown file format: $format";
