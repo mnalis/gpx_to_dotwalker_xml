@@ -35,9 +35,9 @@ sub detect_format($)
 	my ($filename) = @_;
 	open my $fd, '<', $filename;
 	my $line = <$fd>;
-	if ($line =~ /<xml/) {
+	if ($line =~ /<xml/i) {
 		return 'gpx';	# FIXME: assume XML file is gpx. we should be smarter...
-	} elsif ($line =~ /^#!lsdb/) {
+	} elsif ($line =~ /^#!lsdb/i) {
 		return 'lsdb';
 	} else {
 		return "UNKNOWN - first line is: $line";
@@ -63,12 +63,14 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	my $gpx_remotefilename = param('gpx_file');
 
 	my $gpx_localfilename = $gpx_remotefilename; $gpx_localfilename =~ s{^(?:.*[/\\])?(.+?)(?:\.gpx|\.xml)$}{${1}_dotwalker_route.xml};
+
+	my $gpx_tmpfilename = tmpFileName($gpx_remotefilename);
+	my $format = detect_format($gpx_tmpfilename);
+
 #	print header (-type => 'application/octet-stream');
 #	print header (-type => 'application/xml', -charset => 'utf-8');
 	print header (-type => 'application/xml', -charset => 'utf-8', -Content_Disposition => qq{attachment; filename="$gpx_localfilename"});
 
-	my $gpx_tmpfilename = tmpFileName($gpx_remotefilename);
-	my $format = detect_format($gpx_tmpfilename);
 	if ($format eq 'gpx') {
 		exec ($PERL, $g2x_path, $gpx_tmpfilename, '-');
 	} elsif ($format eq 'lsdb') {
