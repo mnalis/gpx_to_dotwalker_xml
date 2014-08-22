@@ -40,7 +40,7 @@ sub detect_format($)
 	} elsif ($line =~ /^#!lsdb/) {
 		return 'lsdb';
 	} else {
-		return 'UNKNOWN';
+		return "UNKNOWN - first line is: $line";
 	}
 }
 
@@ -76,18 +76,18 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	} else {
 		die "Unknown file format: $format";
 	}
-	die "should never reach here; did $g2x_path fail? $?";
+	die "should never reach here; did $g2x_path or $l2g_path fail? $?";
 } else {				# no params, show form
 	print header (-charset => 'utf-8'),
 	start_html (-title => 'GPX to Dotwalker XML converter'),
-	h1("GPX to Dotwalker XML converter $VERSION" ),
-	'Input .GPX file should be in extended format with descriptions, like the one from ', a({-href => 'http://graphhopper.com/maps/'}, 'GraphHopper.com'),
+	h1("GPX/Loadstone to Dotwalker XML converter $VERSION" ),
+	'Input file should be Loadstone export .TXT file, or .GPX in extended format with descriptions, like the one from ', a({-href => 'http://graphhopper.com/maps/'}, 'GraphHopper.com'),
 	br,
 	'Output will be routing .XML file for Dotwalker Android GPS application (you must save it in Dotwalker as "route.xml")',
 	start_form,
-	h2('Select GPX file'),
+	h2('Select GPX or Loadstone file'),
 	filefield (-name => 'gpx_file'),
-	submit (-label => 'Upload GPX'),
+	submit (-label => 'Upload'),
 	end_form,
 	p($AUTHOR . br . $SOURCE . br . $CREDITS),
 	end_html;
