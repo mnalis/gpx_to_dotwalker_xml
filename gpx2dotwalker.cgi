@@ -35,9 +35,9 @@ sub detect_format($)
 	my ($filename) = @_;
 	open my $fd, '<', $filename;
 	my $line = <$fd>;
-	if ($line =~ /<xml/i) {
+	if ($line =~ /xml/i) {
 		return 'gpx';	# FIXME: assume XML file is gpx. we should be smarter...
-	} elsif ($line =~ /^#!lsdb/i) {
+	} elsif ($line =~ /lsdb/i) {
 		return 'lsdb';
 	} else {
 		return "UNKNOWN - first line is: $line";
