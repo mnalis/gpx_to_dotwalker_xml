@@ -18,13 +18,14 @@ use warnings;
 use autodie;
 #use diagnostics;
 
+#$| = 1;
 my $DEBUG = 0;
 
 use Geo::Gpx;
 use Text::CSV;
 binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
-my $VERSION = '0.1';
+my $VERSION = '0.2';
 
 my $fname_LSDB = $ARGV[0];
 my $fname_GPX = $ARGV[1];
@@ -35,9 +36,11 @@ my $row;
 sub add_if_exists($$$$) 
 {
   my ($src, $dst, $prefix, $postfix) = @_;
-  if (defined $row->{$src}) {
-    $extra{$dst} .=  $prefix . $row->{$src} . $postfix;
-    print "  adding extra attribute $src/$dst => " . $prefix . $row->{$src} . $postfix . "\n" if $DEBUG > 2;
+  my $txt = $row->{$src};
+  if (defined $txt) {
+    $txt =~ s/\s+$//;	# remove trailing spaces always
+    $extra{$dst} .=  "$prefix$txt$postfix";
+    print "  adding extra attribute $src/$dst => >$prefix$txt$postfix<\n" if $DEBUG > 2;
   }
 }  
 
@@ -94,12 +97,12 @@ while ($row = $csv->getline_hr ($lsdb_fd)) {
   %extra = ();
   add_if_exists ('satellites', 'sat', '', '');
   add_if_exists ('accuracy', 'pdop', '', '');	# FIXME: well, it probably isn't the same
+  add_if_exists ('id', 'time', '', '');
   
   # FIXME - remote last space in 'cmt' after they are all finished
   add_if_exists ('priority', 'cmt', 'priority=', ' ');
-  add_if_exists ('id', 'cmt', 'id=', ' ');
-  add_if_exists ('userid', 'cmt', 'userid=', ' ');
   add_if_exists ('test', 'cmt', 'test=', ' ');	# this does not really exist, just for test
+  add_if_exists ('userid', 'cmt', 'userid=', '');	# fixme kludge: this only removes last space in cmt iif "userid" exists and is last field...
   
   
   $gpx->add_waypoint ({

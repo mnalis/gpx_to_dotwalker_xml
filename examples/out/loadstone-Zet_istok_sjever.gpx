@@ -2,1941 +2,2263 @@
 <gpx xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="Geo::Gpx" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1">
 <metadata>
 <name>examples/in/loadstone/Zet Istok Sjever.txt</name>
-<time>2014-08-21T17:06:47+00:00</time>
+<time>2014-08-22T16:19:25+00:00</time>
 <link href="https://github.com/mnalis/gpx_to_dotwalker_xml">
 <text>Converted by loadstone_to_gpx.pl v0.1</text>
 </link>
 <bounds maxlat="45.8979033" maxlon="16.07833" minlat="45.7159066" minlon="15.836225" />
 </metadata>
 <wpt lat="45.7159066" lon="16.070755">
+<time>2010-02-21T12:55:38+00:00</time>
 <name>zagreba&#x10D;ka 42 autobus sjever</name>
-<cmt>priority=0 id=1266756938 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7175283" lon="16.0656283">
+<time>2010-02-21T12:56:52+00:00</time>
 <name>hrvatske bratske zajednice autobus sjever</name>
-<cmt>priority=0 id=1266757012 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7190766" lon="16.060835">
+<time>2010-02-21T12:57:52+00:00</time>
 <name>groblje autobus sjever</name>
-<cmt>priority=0 id=1266757072 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7211599" lon="16.05405">
+<time>2010-02-21T12:59:36+00:00</time>
 <name>podbre&#x17E;nica autobus sjever</name>
-<cmt>priority=0 id=1266757176 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7299483" lon="16.0262149">
+<time>2010-02-21T13:03:26+00:00</time>
 <name>velika mlaka autobus sjever</name>
-<cmt>priority=0 id=1266757406 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7336133" lon="16.014615">
+<time>2010-02-21T13:04:59+00:00</time>
 <name>veliko polje autobus sjever</name>
-<cmt>priority=0 id=1266757499 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7359416" lon="16.0108616">
+<time>2010-02-21T13:06:00+00:00</time>
 <name>odra &#x17E;eljezni&#x10D;ka stanica autobus sjever</name>
-<cmt>priority=0 id=1266757560 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7398649" lon="16.0042366">
+<time>2010-02-21T13:07:32+00:00</time>
 <name>odra nadvo&#x17E;njak autobus sjever</name>
-<cmt>priority=0 id=1266757652 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7442783" lon="15.99803">
+<time>2010-02-21T13:09:19+00:00</time>
 <name>odra autobus sjever</name>
-<cmt>priority=0 id=1266757759 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7487149" lon="15.9918983">
+<time>2010-02-21T13:10:36+00:00</time>
 <name>buzin autobus sjever</name>
-<cmt>priority=0 id=1266757836 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7606283" lon="15.9878033">
+<time>2010-02-21T13:13:56+00:00</time>
 <name>ore&#x161;kovi&#x107;eva autobus sjever</name>
-<cmt>priority=0 id=1266758036 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7644299" lon="15.9810166">
+<time>2010-02-21T13:15:27+00:00</time>
 <name>otok ne&#x17E;i&#x107;eva autobus sjever</name>
-<cmt>priority=0 id=1266758127 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.772405" lon="15.980555">
+<time>2010-02-21T13:16:55+00:00</time>
 <name>gra&#x111;evinska &#x161;kola autobus sjever</name>
-<cmt>priority=0 id=1266758215 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7770649" lon="15.9652166">
+<time>2012-08-21T17:46:18+00:00</time>
 <name>trnsko istok</name>
-<cmt>priority=0 id=1345571178 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7771383" lon="15.9566933">
+<time>2012-08-21T17:34:53+00:00</time>
 <name>savski gaj istok</name>
-<cmt>priority=0 id=1345570493 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.77728" lon="15.9714433">
+<time>2012-08-21T17:56:31+00:00</time>
 <name>velesajam istok</name>
-<cmt>priority=0 id=1345571791 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7773049" lon="15.9817883">
+<time>2010-03-23T13:22:27+00:00</time>
 <name>muzej suvremene umjetnosti autobus istok</name>
-<cmt>priority=0 id=1269350547 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7774633" lon="15.9796483">
+<time>2012-08-21T18:04:43+00:00</time>
 <name>muzej suvremene umjetnosti istok</name>
-<cmt>priority=0 id=1345572283 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.777535" lon="15.9866083">
+<time>2010-03-23T13:23:42+00:00</time>
 <name>sopot autobus istok</name>
-<cmt>priority=0 id=1269350622 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.77767" lon="15.9867766">
+<time>2012-08-21T18:20:41+00:00</time>
 <name>sopot istok</name>
-<cmt>priority=0 id=1345573241 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7777583" lon="15.9529">
+<time>2012-08-21T17:29:52+00:00</time>
 <name>arena zagreb jug</name>
-<cmt>priority=0 id=1345570192 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7777866" lon="15.99159">
+<time>2012-08-21T18:26:32+00:00</time>
 <name>sredi&#x161;&#x107;e istok</name>
-<cmt>priority=0 id=1345573592 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.777915" lon="15.9979133">
+<time>2012-08-21T18:39:16+00:00</time>
 <name>utrina istok</name>
-<cmt>priority=0 id=1345574356 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7780833" lon="16.0008466">
+<time>2012-08-21T18:51:54+00:00</time>
 <name>zapru&#x111;e istok</name>
-<cmt>priority=0 id=1345575114 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7785216" lon="15.98068">
+<time>2010-02-09T17:44:32+00:00</time>
 <name>muzej suvremene umjetnosti autobus sjever</name>
-<cmt>priority=0 id=1265737472 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7794383" lon="16.0017666">
+<time>2012-08-21T19:08:18+00:00</time>
 <name>zapru&#x111;e, most mladosti sjever</name>
-<cmt>priority=0 id=1345576098 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7823433" lon="16.0015333">
+<time>2012-08-21T19:12:41+00:00</time>
 <name>most mladosti sjever</name>
-<cmt>priority=0 id=1345576361 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7838516" lon="15.9555816">
+<time>2012-09-17T15:59:01+00:00</time>
 <name>161, savski most, brezovica, kupine&#x10D;ki kraljevec, &#x161;trpet</name>
-<cmt>priority=0 id=1347897541 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7840583" lon="15.9545616">
+<time>2012-09-17T15:53:10+00:00</time>
 <name>168, savski most, lu&#x10D;ko, je&#x17E;dovec, pre&#x10D;ko</name>
-<cmt>priority=0 id=1347897190 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7841883" lon="15.98006">
+<time>2010-02-09T17:48:31+00:00</time>
 <name>bundek autobus sjever</name>
-<cmt>priority=0 id=1265737711 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.784205" lon="15.9547">
+<time>2012-09-17T15:51:38+00:00</time>
 <name>164, savski most, lu&#x10D;ko, horvati</name>
-<cmt>priority=0 id=1347897098 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7842899" lon="15.9541733">
+<time>2012-09-17T15:54:35+00:00</time>
 <name>110, savski most, remetinec, botinec</name>
-<cmt>priority=0 id=1347897275 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.78433" lon="15.9530399">
+<time>2012-09-17T15:46:39+00:00</time>
 <name>165, savski most, klin&#x10D;a selo</name>
-<cmt>priority=0 id=1347896799 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.78437" lon="15.9533966">
+<time>2012-09-17T15:48:49+00:00</time>
 <name>133, savski most, sv. klara, &#x10D;ehi</name>
-<cmt>priority=0 id=1347896929 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>12</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.784525" lon="15.9540666">
+<time>2012-09-17T15:50:14+00:00</time>
 <name>112, savski most, lu&#x10D;ko</name>
-<cmt>priority=0 id=1347897014 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7853233" lon="15.9532016">
+<time>2012-09-17T16:01:11+00:00</time>
 <name>162, savski most, a&#x161;pergeri, kupinec</name>
-<cmt>priority=0 id=1347897671 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.78533" lon="15.953195">
+<time>2012-09-17T16:07:04+00:00</time>
 <name>169, savski most, kupinec</name>
-<cmt>priority=0 id=1347898024 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.785345" lon="15.953205">
+<time>2012-09-17T16:08:44+00:00</time>
 <name>159, savski most, strmec odranski</name>
-<cmt>priority=0 id=1347898124 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7853466" lon="15.9532016">
+<time>2012-09-17T16:09:29+00:00</time>
 <name>160, savski most, lipnica</name>
-<cmt>priority=0 id=1347898169 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7853483" lon="15.9531983">
+<time>2012-09-17T16:11:05+00:00</time>
 <name>163, savski most, donji trpuci, gornji trpuci</name>
-<cmt>priority=0 id=1347898265 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.78535" lon="15.9531966">
+<time>2012-09-17T16:11:55+00:00</time>
 <name>315, savski most, lukavec</name>
-<cmt>priority=0 id=1347898315 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7853583" lon="15.953245">
+<time>2012-09-17T16:12:55+00:00</time>
 <name>111, savski most, donji stupnik</name>
-<cmt>priority=0 id=1347898375 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7853583" lon="15.9533216">
+<time>2012-09-17T16:14:12+00:00</time>
 <name>108, savski most, prisavlje, glavni kolodvor</name>
-<cmt>priority=0 id=1347898452 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.78536" lon="15.95332">
+<time>2012-09-17T16:15:49+00:00</time>
 <name>132, savski most, hrvatski leskovac, goli breg, brezovica</name>
-<cmt>priority=0 id=1347898549 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7856816" lon="15.9534316">
+<time>2012-09-17T15:44:30+00:00</time>
 <name>savski most, dolazni peron</name>
-<cmt>priority=0 id=1347896670 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.786025" lon="15.9532566">
+<time>2012-08-20T19:16:44+00:00</time>
 <name>savski most po&#x10D;etna, sjever, b,</name>
-<cmt>priority=0 id=1345490204 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7862083" lon="15.953405">
+<time>2012-08-20T19:18:02+00:00</time>
 <name>savski most po&#x10D;etna, sjever, a,</name>
-<cmt>priority=0 id=1345490282 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7863416" lon="15.9517166">
+<time>2012-08-20T19:05:32+00:00</time>
 <name>studentski dom stjepan radi&#x107;, jadranski most sjever</name>
-<cmt>priority=0 id=1345489532 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7863533" lon="15.9507833">
+<time>2012-08-20T19:02:04+00:00</time>
 <name>studentski dom stjepan radi&#x107; istok</name>
-<cmt>priority=0 id=1345489324 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7867466" lon="15.9282883">
+<time>2010-05-25T13:50:35+00:00</time>
 <name>113 crveni kri&#x17E; autobus sjever</name>
-<cmt>priority=0 id=1274795435 userid=8667 </cmt>
+<cmt>priority=0 userid=8667</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.78794" lon="15.929335">
+<time>2012-08-20T18:10:15+00:00</time>
 <name>stagli&#x161;&#x107;e istok</name>
-<cmt>priority=0 id=1345486215 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.788075" lon="15.9366383">
+<time>2012-08-20T18:27:05+00:00</time>
 <name>srednjaci istok</name>
-<cmt>priority=0 id=1345487225 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7880866" lon="15.9419483">
+<time>2012-08-20T18:32:20+00:00</time>
 <name>horvati istok</name>
-<cmt>priority=0 id=1345487540 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7881133" lon="15.9452033">
+<time>2012-08-20T18:48:16+00:00</time>
 <name>kne&#x17E;ija istok</name>
-<cmt>priority=0 id=1345488496 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7887633" lon="15.95508">
+<time>2012-08-20T19:24:11+00:00</time>
 <name>vesla&#x10D;ka sjever</name>
-<cmt>priority=0 id=1345490651 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.78883" lon="16.0043166">
+<time>2012-08-21T19:23:53+00:00</time>
 <name>borovje sjever</name>
-<cmt>priority=0 id=1345577033 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7890783" lon="16.0345166">
+<time>2012-08-25T10:25:02+00:00</time>
 <name>savi&#x161;&#x107;e istok</name>
-<cmt>priority=0 id=1345890302 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7897133" lon="15.93043">
+<time>2010-05-25T13:57:42+00:00</time>
 <name>113 na&#x161;i&#x10D;ka autobus sjever</name>
-<cmt>priority=0 id=1274795862 userid=8667 </cmt>
+<cmt>priority=0 userid=8667</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7897183" lon="15.9203816">
+<time>2012-08-20T17:56:07+00:00</time>
 <name>jarun istok</name>
-<cmt>priority=0 id=1345485367 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7913516" lon="15.9569216">
+<time>2012-08-22T16:44:29+00:00</time>
 <name>prisavlje sjever</name>
-<cmt>priority=0 id=1345653869 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7915066" lon="16.03696">
+<time>2012-08-25T10:23:47+00:00</time>
 <name>zagreba&#x10D;ki transporti istok</name>
-<cmt>priority=0 id=1345890227 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7916766" lon="15.914425">
+<time>2012-08-20T17:30:37+00:00</time>
 <name>rude&#x161;ka istok</name>
-<cmt>priority=0 id=1345483837 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7920066" lon="16.0025516">
+<time>2012-08-21T19:33:21+00:00</time>
 <name>folnegovi&#x107;evo naselje sjever</name>
-<cmt>priority=0 id=1345577601 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7923783" lon="15.9068599">
+<time>2012-08-20T16:24:48+00:00</time>
 <name>petrovaradinska istok</name>
-<cmt>priority=0 id=1345479888 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7925433" lon="15.9074866">
+<time>2009-11-10T12:50:24+00:00</time>
 <name>prilaz ku&#xFFFD;i iz horva&#xFFFD;anske</name>
-<cmt>priority=0 id=1257857424 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7929366" lon="15.90777">
+<time>2009-11-10T12:51:53+00:00</time>
 <name>ku&#xFFFD;a zapad</name>
-<cmt>priority=0 id=1257857513 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7929416" lon="15.9084383">
+<time>2010-02-16T09:57:23+00:00</time>
 <name>ku&#xFFFD;a istok</name>
-<cmt>priority=0 id=1266314243 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7930149" lon="15.9021683">
+<time>2012-08-20T16:43:02+00:00</time>
 <name>marijane radev istok</name>
-<cmt>priority=0 id=1345480982 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7932149" lon="16.0385033">
+<time>2012-08-25T10:06:34+00:00</time>
 <name>munja istok</name>
-<cmt>priority=0 id=1345889194 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.793735" lon="15.9380716">
+<time>2010-04-06T05:14:49+00:00</time>
 <name>falerovo autobus istok</name>
-<cmt>priority=0 id=1270530889 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.79399" lon="15.9326966">
+<time>2012-08-09T04:48:28+00:00</time>
 <name>dragutina golika autobus istok</name>
-<cmt>priority=0 id=1344487708 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7941533" lon="15.9501983">
+<time>2010-04-06T05:17:13+00:00</time>
 <name>nehajska zagreba&#x10D;ka avenija autobus istok</name>
-<cmt>priority=0 id=1270531033 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7943216" lon="15.898545">
+<time>2012-08-20T16:56:47+00:00</time>
 <name>slavenskog istok</name>
-<cmt>priority=0 id=1345481807 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7943483" lon="15.89335">
+<time>2012-08-20T17:16:27+00:00</time>
 <name>pre&#x10D;ko istok</name>
-<cmt>priority=0 id=1345482987 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7946866" lon="15.92382">
+<time>2010-04-06T05:10:46+00:00</time>
 <name>hrvatskog sokola autobus istok</name>
-<cmt>priority=0 id=1270530646 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>2</pdop>
 </wpt>
 <wpt lat="45.7947716" lon="15.959145">
+<time>2012-08-22T16:48:23+00:00</time>
 <name>vjesnik sjever</name>
-<cmt>priority=0 id=1345654103 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7948116" lon="15.8995816">
+<time>2009-12-30T07:18:33+00:00</time>
 <name>134 pre&#x10D;ko &#x10D;rnomerec autobus po&#x10D;etna</name>
-<cmt>priority=0 id=1262157513 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.79497" lon="15.9206116">
+<time>2010-04-06T05:09:53+00:00</time>
 <name>rude&#x161;ka zagreba&#x10D;ka avenija autobus istok</name>
-<cmt>priority=0 id=1270530593 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7955433" lon="15.9797716">
+<time>2010-02-09T17:50:37+00:00</time>
 <name>nacionalna sveu&#x10D;ili&#x161;na knji&#x17E;nica autobus sjever</name>
-<cmt>priority=0 id=1265737837 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7956416" lon="15.9366616">
+<time>2012-08-30T14:58:01+00:00</time>
 <name>116, ljubljanica, podsused</name>
-<cmt>priority=0 id=1346338681 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7958316" lon="15.9365466">
+<time>2012-08-30T14:55:58+00:00</time>
 <name>113, ljubljanica, jarun</name>
-<cmt>priority=0 id=1346338558 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7958416" lon="15.909415">
+<time>2013-07-02T07:57:25+00:00</time>
 <name>petrovaradinska zagreba&#x10D;ka avenija autobus istok</name>
-<cmt>priority=0 id=1372751845 userid=33999 </cmt>
+<cmt>priority=0 userid=33999</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7961916" lon="15.9366133">
+<time>2012-08-30T14:53:31+00:00</time>
 <name>115, ljubljanica, &#x161;pansko</name>
-<cmt>priority=0 id=1346338411 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7964183" lon="15.9365766">
+<time>2012-08-30T14:51:08+00:00</time>
 <name>114, ljubljanica, pre&#x10D;ko</name>
-<cmt>priority=0 id=1346338268 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7966099" lon="15.9989183">
+<time>2012-08-21T19:39:43+00:00</time>
 <name>slavonska avenija sjever</name>
-<cmt>priority=0 id=1345577983 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7967416" lon="15.9094266">
+<time>2009-12-17T17:08:08+00:00</time>
 <name>petrovaradinska zagreba&#x10D;ka avenija autobus sjever</name>
-<cmt>priority=0 id=1261069688 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7967683" lon="15.90122">
+<time>2009-12-21T18:33:09+00:00</time>
 <name>slavenskog zagreba&#x10D;ka avenija autobus istok</name>
-<cmt>priority=0 id=1261420389 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7967749" lon="16.0375533">
+<time>2012-08-25T10:05:15+00:00</time>
 <name>elka istok</name>
-<cmt>priority=0 id=1345889115 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7969916" lon="15.9367916">
+<time>2012-08-30T16:30:11+00:00</time>
 <name>ljubljanica, autobus, dolazni peron</name>
-<cmt>priority=0 id=1346344211 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7971533" lon="15.9608583">
+<time>2012-08-22T16:50:20+00:00</time>
 <name>u&#x10D;iteljski fakultet sjever</name>
-<cmt>priority=0 id=1345654220 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7972833" lon="15.9384716">
+<time>2012-08-21T05:03:09+00:00</time>
 <name>ljubljanica po&#x10D;etna, istok, a,</name>
-<cmt>priority=0 id=1345525389 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7978616" lon="15.9439283">
+<time>2012-08-21T05:06:29+00:00</time>
 <name>selska istok</name>
-<cmt>priority=0 id=1345525589 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7979916" lon="15.8574466">
+<time>2012-05-29T17:47:26+00:00</time>
 <name>kimg autobus istok</name>
-<cmt>priority=0 id=1338313646 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7980983" lon="15.9012683">
+<time>2009-12-21T18:28:00+00:00</time>
 <name>gustava krkleca autobus istok</name>
-<cmt>priority=0 id=1261420080 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7988166" lon="15.9483216">
+<time>2012-08-21T05:09:38+00:00</time>
 <name>nehajska istok</name>
-<cmt>priority=0 id=1345525778 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7989" lon="16.03465">
+<time>2012-08-25T10:04:17+00:00</time>
 <name>&#x17E;itnjak istok</name>
-<cmt>priority=0 id=1345889057 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7992616" lon="15.96307">
+<time>2012-08-25T09:16:21+00:00</time>
 <name>zagreb&#x10D;anka istok</name>
-<cmt>priority=0 id=1345886181 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7993899" lon="15.9795666">
+<time>2010-02-21T13:24:00+00:00</time>
 <name>lisinski autobus sjever</name>
-<cmt>priority=0 id=1266758640 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7995383" lon="15.9671983">
+<time>2012-08-25T09:19:03+00:00</time>
 <name>vrbik istok</name>
-<cmt>priority=0 id=1345886343 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7998866" lon="15.95326">
+<time>2012-08-22T17:15:31+00:00</time>
 <name>tre&#x161;njeva&#x10D;ki trg istok</name>
-<cmt>priority=0 id=1345655731 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7998783" lon="15.9695066">
+<time>2012-08-25T09:30:06+00:00</time>
 <name>sveu&#x10D;ili&#x161;na aleja istok</name>
-<cmt>priority=0 id=1345887006 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7999233" lon="15.9136066">
+<time>2009-12-30T07:29:32+00:00</time>
 <name>ratarska autobus sjever</name>
-<cmt>priority=0 id=1262158172 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.79994" lon="15.9627516">
+<time>2012-08-22T16:54:49+00:00</time>
 <name>zagreb&#x10D;anka sjever</name>
-<cmt>priority=0 id=1345654489 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.7999966" lon="15.9752916">
+<time>2012-08-25T09:31:59+00:00</time>
 <name>miramarska istok</name>
-<cmt>priority=0 id=1345887119 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.800265" lon="15.9799833">
+<time>2012-08-25T09:32:55+00:00</time>
 <name>lisinski istok</name>
-<cmt>priority=0 id=1345887175 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8004416" lon="15.984845">
+<time>2012-08-25T09:34:26+00:00</time>
 <name>kruge istok</name>
-<cmt>priority=0 id=1345887266 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.80069" lon="15.9888183">
+<time>2012-08-25T09:40:43+00:00</time>
 <name>strojarska istok</name>
-<cmt>priority=0 id=1345887643 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8010249" lon="16.03044">
+<time>2012-08-25T10:02:30+00:00</time>
 <name>&#x10D;avi&#x107;eva istok</name>
-<cmt>priority=0 id=1345888950 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8011066" lon="15.9963466">
+<time>2012-08-23T17:26:24+00:00</time>
 <name>dr&#x17E;i&#x107;eva istok</name>
-<cmt>priority=0 id=1345742784 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8012433" lon="15.9996816">
+<time>2012-08-25T09:45:01+00:00</time>
 <name>olibska istok</name>
-<cmt>priority=0 id=1345887901 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.80153" lon="16.003905">
+<time>2012-08-25T09:53:52+00:00</time>
 <name>radni&#x10D;ka istok</name>
-<cmt>priority=0 id=1345888432 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8018349" lon="15.9591516">
+<time>2012-08-22T17:21:18+00:00</time>
 <name>badali&#x107;eva istok</name>
-<cmt>priority=0 id=1345656078 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.801575" lon="15.903045">
+<time>2009-12-21T18:26:06+00:00</time>
 <name>antuna &#x161;oljana autobus istok</name>
-<cmt>priority=0 id=1261419966 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8016183" lon="15.9952">
+<time>2012-08-23T17:36:51+00:00</time>
 <name>dr&#x17E;i&#x107;eva sjever, b,</name>
-<cmt>priority=0 id=1345743411 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8019283" lon="15.9951266">
+<time>2012-08-23T17:37:52+00:00</time>
 <name>dr&#x17E;i&#x107;eva sjever, a,</name>
-<cmt>priority=0 id=1345743472 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8019783" lon="15.9771916">
+<time>2012-09-02T18:55:42+00:00</time>
 <name>234, glavni kolodvor, kajzerica, lani&#x161;te</name>
-<cmt>priority=0 id=1346612142 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8020766" lon="15.8983633">
+<time>2009-12-21T18:24:45+00:00</time>
 <name>tr&#x17E;nica &#x161;pansko autobus istok</name>
-<cmt>priority=0 id=1261419885 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8021333" lon="15.894855">
+<time>2009-12-21T18:23:57+00:00</time>
 <name>matije vla&#x10D;i&#x107;a autobus istok</name>
-<cmt>priority=0 id=1261419837 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.80222" lon="16.0104383">
+<time>2012-08-25T09:55:14+00:00</time>
 <name>heinzelova, vukovarska istok</name>
-<cmt>priority=0 id=1345888514 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8022333" lon="15.8895483">
+<time>2009-12-18T16:56:54+00:00</time>
 <name>115 &#x161;pansko ljubljanica autobus po&#x10D;etna</name>
-<cmt>priority=0 id=1261155414 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8023566" lon="15.97727">
+<time>2012-09-02T16:08:31+00:00</time>
 <name>218, glavni kolodvor, borovje, savica</name>
-<cmt>priority=0 id=1346602111 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.802375" lon="15.9176216">
+<time>2009-12-30T07:30:34+00:00</time>
 <name>zagreba&#x10D;ka190 autobus sjever</name>
-<cmt>priority=0 id=1262158234 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8024799" lon="15.9644883">
+<time>2012-08-22T17:00:36+00:00</time>
 <name>studentski centar sjever</name>
-<cmt>priority=0 id=1345654836 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8024816" lon="15.9772633">
+<time>2012-09-02T16:11:15+00:00</time>
 <name>295, glavni kolodvor, sajam jaku&#x161;evec</name>
-<cmt>priority=0 id=1346602275 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8024983" lon="15.9773133">
+<time>2012-09-02T16:10:09+00:00</time>
 <name>330, glavni kolodvor, velika gorica</name>
-<cmt>priority=0 id=1346602209 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8027116" lon="15.9771616">
+<time>2012-09-02T16:12:21+00:00</time>
 <name>268, glavni kolodvor, velika gorica</name>
-<cmt>priority=0 id=1346602341 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8029083" lon="16.026735">
+<time>2012-08-25T10:01:15+00:00</time>
 <name>getaldi&#x107;eva istok</name>
-<cmt>priority=0 id=1345888875 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8029283" lon="15.964775">
+<time>2012-08-22T18:49:37+00:00</time>
 <name>studentski centar jug</name>
-<cmt>priority=0 id=1345661377 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8029966" lon="16.0146233">
+<time>2012-08-25T09:57:12+00:00</time>
 <name>donje svetice istok</name>
-<cmt>priority=0 id=1345888632 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8030849" lon="15.9771649">
+<time>2012-09-02T16:13:01+00:00</time>
 <name>219, glavni kolodvor, slobo&#x161;tina</name>
-<cmt>priority=0 id=1346602381 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8032383" lon="15.9641766">
+<time>2013-03-21T15:02:15+00:00</time>
 <name>tehni&#x10D;ki muzej istok</name>
-<cmt>priority=0 id=1363878135 userid=33999 </cmt>
+<cmt>priority=0 userid=33999</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8035483" lon="15.9775116">
+<time>2012-09-02T16:14:50+00:00</time>
 <name>220, glavni kolodvor, dugave</name>
-<cmt>priority=0 id=1346602490 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8035933" lon="15.9777733">
+<time>2012-09-02T16:15:28+00:00</time>
 <name>glavni kolodvor, dolazni peron, a</name>
-<cmt>priority=0 id=1346602528 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8036316" lon="15.9774799">
+<time>2010-02-21T13:25:54+00:00</time>
 <name>glavni kolodvor autobus okreti&#x161;te</name>
-<cmt>priority=0 id=1266758754 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8036616" lon="15.9938433">
+<time>2012-08-23T17:48:35+00:00</time>
 <name>autobusni kolodvor jug, a,</name>
-<cmt>priority=0 id=1345744115 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8037633" lon="15.9775133">
+<time>2012-09-02T16:17:41+00:00</time>
 <name>podhodnik glavnog kolodvora</name>
-<cmt>priority=0 id=1346602661 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8037683" lon="15.9774433">
+<time>2012-09-02T16:16:27+00:00</time>
 <name>221, glavni kolodvor, travno</name>
-<cmt>priority=0 id=1346602587 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8038199" lon="15.9791016">
+<time>2012-09-02T16:24:11+00:00</time>
 <name>310, glavni kolodvor, petrovina</name>
-<cmt>priority=0 id=1346603051 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8038566" lon="15.9789816">
+<time>2012-09-02T16:23:37+00:00</time>
 <name>229, glavni kolodvor, odra - mala mlaka</name>
-<cmt>priority=0 id=1346603017 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8038583" lon="15.9789783">
+<time>2012-09-02T16:22:51+00:00</time>
 <name>166, glavni kolodvor, donji dragono&#x17E;ec</name>
-<cmt>priority=0 id=1346602971 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.80387" lon="15.9787316">
+<time>2012-09-02T16:21:36+00:00</time>
 <name>108, glavni kolodvor, savski most</name>
-<cmt>priority=0 id=1346602896 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>12</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8038733" lon="16.0198466">
+<time>2012-08-25T09:59:13+00:00</time>
 <name>ivani&#x10D;gradska istok</name>
-<cmt>priority=0 id=1345888753 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8038916" lon="15.9937716">
+<time>2012-08-23T17:47:32+00:00</time>
 <name>autobusni kolodvor jug, b,</name>
-<cmt>priority=0 id=1345744052 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8039083" lon="15.97863">
+<time>2012-09-02T16:20:58+00:00</time>
 <name>glavni kolodvor, dolazni peron, b</name>
-<cmt>priority=0 id=1346602858 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8039733" lon="15.9938316">
+<time>2012-08-23T17:46:07+00:00</time>
 <name>autobusni kolodvor sjever, b,</name>
-<cmt>priority=0 id=1345743967 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8042266" lon="15.9206333">
+<time>2009-12-30T07:31:26+00:00</time>
 <name>medarska autobus sjever</name>
-<cmt>priority=0 id=1262158286 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8042366" lon="16.0231766">
+<time>2012-08-25T10:00:22+00:00</time>
 <name>feren&#x161;&#x10D;ica istok</name>
-<cmt>priority=0 id=1345888822 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8042416" lon="15.9938233">
+<time>2012-08-23T17:44:03+00:00</time>
 <name>autobusni kolodvor sjever, a,</name>
-<cmt>priority=0 id=1345743843 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8052649" lon="15.9788183">
+<time>2012-08-23T19:58:50+00:00</time>
 <name>glavni kolodvor istok, b,</name>
-<cmt>priority=0 id=1345751930 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8053966" lon="15.9792016">
+<time>2013-03-21T15:15:03+00:00</time>
 <name>glavni kolodvor istok, a</name>
-<cmt>priority=0 id=1363878903 userid=33999 </cmt>
+<cmt>priority=0 userid=33999</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8055733" lon="15.983645">
+<time>2013-03-21T15:16:48+00:00</time>
 <name>branimirova istok</name>
-<cmt>priority=0 id=1363879008 userid=33999 </cmt>
+<cmt>priority=0 userid=33999</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8054633" lon="15.9843016">
+<time>2012-08-23T20:09:13+00:00</time>
 <name>branimirova zapad</name>
-<cmt>priority=0 id=1345752553 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8054433" lon="15.9677233">
+<time>2013-06-03T11:44:19+00:00</time>
 <name>vodnikova istok</name>
-<cmt>priority=0 id=1370259859 userid=33999 </cmt>
+<cmt>priority=0 userid=33999</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8055933" lon="15.990475">
+<time>2012-08-23T20:17:52+00:00</time>
 <name>branimirova tr&#x17E;nica zapad</name>
-<cmt>priority=0 id=1345753072 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8061583" lon="15.9667233">
+<time>2012-08-22T17:40:03+00:00</time>
 <name>vodnikova sjever</name>
-<cmt>priority=0 id=1345657203 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.80581" lon="15.9735016">
+<time>2013-03-21T15:12:23+00:00</time>
 <name>botani&#x10D;ki vrt istok</name>
-<cmt>priority=0 id=1363878743 userid=33999 </cmt>
+<cmt>priority=0 userid=33999</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8056633" lon="15.92302">
+<time>2009-12-30T07:32:26+00:00</time>
 <name>sokolska autobus sjever</name>
-<cmt>priority=0 id=1262158346 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8060616" lon="15.991715">
+<time>2012-08-23T20:19:13+00:00</time>
 <name>branimirova tr&#x17E;nica istok</name>
-<cmt>priority=0 id=1345753153 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.807675" lon="15.9693366">
+<time>2012-09-05T16:27:55+00:00</time>
 <name>ma&#x17E;urani&#x107;ev trg, dolazni peron</name>
-<cmt>priority=0 id=1346862475 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.80773" lon="15.9841283">
+<time>2012-08-23T19:27:56+00:00</time>
 <name>&#x161;eraton istok</name>
-<cmt>priority=0 id=1345750076 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8078916" lon="15.96164">
+<time>2012-08-24T19:11:04+00:00</time>
 <name>ad&#x17E;ijina istok</name>
-<cmt>priority=0 id=1345835464 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8079533" lon="15.9918383">
+<time>2012-08-23T17:53:42+00:00</time>
 <name>trg kralja petra kre&#x161;imira &#x10D;etvrtog sjever</name>
-<cmt>priority=0 id=1345744422 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8079566" lon="15.9694083">
+<time>2012-09-05T16:29:31+00:00</time>
 <name>118, ma&#x17E;urani&#x107;ev trg, voltino naselje</name>
-<cmt>priority=0 id=1346862571 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8086483" lon="15.968465">
+<time>2012-08-22T17:50:20+00:00</time>
 <name>trg mar&#x161;ala tita sjever</name>
-<cmt>priority=0 id=1345657820 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.80825" lon="15.9692516">
+<time>2012-09-05T16:32:01+00:00</time>
 <name>ma&#x17E;urani&#x107;ev trg, do&#x17E;ivi grad</name>
-<cmt>priority=0 id=1346862721 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8082583" lon="15.9837433">
+<time>2012-08-23T19:26:07+00:00</time>
 <name>&#x161;eraton sjever</name>
-<cmt>priority=0 id=1345749967 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8087683" lon="15.9273116">
+<time>2009-12-30T07:33:31+00:00</time>
 <name>tomislovava autobus sjever</name>
-<cmt>priority=0 id=1262158411 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8092749" lon="15.987395">
+<time>2012-08-23T19:31:58+00:00</time>
 <name>trg &#x17E;rtava fa&#x161;izma istok</name>
-<cmt>priority=0 id=1345750318 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.809445" lon="15.953945">
+<time>2012-08-29T19:06:41+00:00</time>
 <name>autobusna po&#x10D;etna, zapadni kolodvor</name>
-<cmt>priority=0 id=1346267201 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8095716" lon="15.95543">
+<time>2012-08-24T18:57:06+00:00</time>
 <name>zapadni kolodvor istok</name>
-<cmt>priority=0 id=1345834626 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8096483" lon="15.957165">
+<time>2012-08-24T18:49:39+00:00</time>
 <name>talov&#x10D;eva jug</name>
-<cmt>priority=0 id=1345834179 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8098599" lon="15.977825">
+<time>2012-08-23T19:49:33+00:00</time>
 <name>zrinjevac jug</name>
-<cmt>priority=0 id=1345751373 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8104133" lon="15.99406">
+<time>2012-08-23T18:03:21+00:00</time>
 <name>&#x161;ubi&#x107;eva istok</name>
-<cmt>priority=0 id=1345745001 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.810745" lon="15.9937966">
+<time>2012-08-23T17:59:29+00:00</time>
 <name>&#x161;ubi&#x107;eva sjever</name>
-<cmt>priority=0 id=1345744769 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.810925" lon="15.9838733">
+<time>2012-08-23T19:16:27+00:00</time>
 <name>klinika za traumatologiju sjever</name>
-<cmt>priority=0 id=1345749387 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8111166" lon="15.9974333">
+<time>2012-08-24T12:08:28+00:00</time>
 <name>tu&#x161;kanova istok</name>
-<cmt>priority=0 id=1345810108 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8116783" lon="15.9844916">
+<time>2012-08-23T19:13:46+00:00</time>
 <name>trg hrvatskih velikana istok</name>
-<cmt>priority=0 id=1345749226 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8123866" lon="15.9695383">
+<time>2012-08-22T17:54:02+00:00</time>
 <name>frankopanska sjever</name>
-<cmt>priority=0 id=1345658042 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8119233" lon="15.8602283">
+<time>2012-05-29T17:44:13+00:00</time>
 <name>samoborska &#x161;korpikova autobus istok</name>
-<cmt>priority=0 id=1338313453 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8120849" lon="15.934675">
+<time>2009-12-30T07:35:09+00:00</time>
 <name>prilaz baruna filipovi&#x107;a autobus istok</name>
-<cmt>priority=0 id=1262158509 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8120933" lon="16.0012933">
+<time>2012-08-24T12:23:38+00:00</time>
 <name>heinzelova, zvonimirova istok</name>
-<cmt>priority=0 id=1345811018 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8122733" lon="15.9552466">
+<time>2012-08-29T19:13:28+00:00</time>
 <name>146, reljkovi&#x107;eva, male&#x161;nica, jankomir</name>
-<cmt>priority=0 id=1346267608 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8124583" lon="15.895875">
+<time>2010-03-28T16:08:49+00:00</time>
 <name>vrap&#x10D;anska aleja autobus istok</name>
-<cmt>priority=0 id=1269792529 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8124633" lon="15.9552266">
+<time>2012-08-29T19:15:45+00:00</time>
 <name>139, reljkovi&#x107;eva, jelenovac, reljkovi&#x107;eva</name>
-<cmt>priority=0 id=1346267745 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8124683" lon="15.9484433">
+<time>2012-08-24T18:05:26+00:00</time>
 <name>mandali&#x10D;ina istok</name>
-<cmt>priority=0 id=1345831526 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8124816" lon="15.9629516">
+<time>2012-08-24T18:34:17+00:00</time>
 <name>britanski trg istok</name>
-<cmt>priority=0 id=1345833257 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8125583" lon="15.9993133">
+<time>2012-09-09T14:22:07+00:00</time>
 <name>216, kvaternikov trg, resnik, ivanja reka</name>
-<cmt>priority=0 id=1347200527 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8125633" lon="15.999285">
+<time>2012-09-09T14:22:54+00:00</time>
 <name>276, kvaternikov trg, ivanja reka, dumovec</name>
-<cmt>priority=0 id=1347200574 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8126533" lon="15.9519766">
+<time>2012-08-24T18:17:20+00:00</time>
 <name>slovenska istok</name>
-<cmt>priority=0 id=1345832240 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8127133" lon="15.999075">
+<time>2012-09-09T14:21:09+00:00</time>
 <name>217, kvaternikov trg, struge, petru&#x161;eva&#x10D;ko naselje</name>
-<cmt>priority=0 id=1347200469 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8128016" lon="15.9073333">
+<time>2010-03-28T16:11:17+00:00</time>
 <name>vrap&#x10D;anska autobus istok</name>
-<cmt>priority=0 id=1269792677 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.812855" lon="15.9988733">
+<time>2012-09-09T14:19:45+00:00</time>
 <name>215, kvaternikov trg, trnava</name>
-<cmt>priority=0 id=1347200385 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8128716" lon="15.9566733">
+<time>2012-08-24T18:25:43+00:00</time>
 <name>trg doktora franje tu&#x111;mana sjever</name>
-<cmt>priority=0 id=1345832743 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8129683" lon="15.886155">
+<time>2010-03-28T16:07:24+00:00</time>
 <name>gospodska autobus istok</name>
-<cmt>priority=0 id=1269792444 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8129716" lon="15.9837966">
+<time>2012-08-23T19:04:48+00:00</time>
 <name>dra&#x161;kovi&#x107;eva sjever, b,</name>
-<cmt>priority=0 id=1345748688 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8129816" lon="15.9561616">
+<time>2012-08-24T18:23:28+00:00</time>
 <name>trg doktora franje tu&#x111;mana istok</name>
-<cmt>priority=0 id=1345832608 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.812985" lon="15.9770783">
+<time>2012-08-23T19:43:00+00:00</time>
 <name>trg bana josipa jela&#x10D;i&#x107;a istok, b,</name>
-<cmt>priority=0 id=1345750980 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8130116" lon="15.998595">
+<time>2012-09-09T14:19:01+00:00</time>
 <name>237, kvaternikov trg, kozari putevi</name>
-<cmt>priority=0 id=1347200341 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8130633" lon="15.9774166">
+<time>2012-08-23T19:43:50+00:00</time>
 <name>trg bana josipa jela&#x10D;i&#x107;a istok, a,</name>
-<cmt>priority=0 id=1345751030 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8131633" lon="16.0044466">
+<time>2012-08-24T12:32:06+00:00</time>
 <name>&#x161;ulekova istok</name>
-<cmt>priority=0 id=1345811526 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8132933" lon="15.9693633">
+<time>2012-08-22T18:04:01+00:00</time>
 <name>frankopanska istok</name>
-<cmt>priority=0 id=1345658641 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8133783" lon="15.9431216">
+<time>2012-08-24T17:57:04+00:00</time>
 <name>sveti duh istok</name>
-<cmt>priority=0 id=1345831024 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8133933" lon="15.8783783">
+<time>2010-03-28T16:03:18+00:00</time>
 <name>med potoki autobus istok</name>
-<cmt>priority=0 id=1269792198 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8134" lon="15.9980683">
+<time>2012-09-09T14:16:33+00:00</time>
 <name>kvaternikov trg, dolazni peron</name>
-<cmt>priority=0 id=1347200193 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.813515" lon="15.9979033">
+<time>2012-09-09T14:15:45+00:00</time>
 <name>204, kvaternikov trg, horvatovac, vo&#x107;arska</name>
-<cmt>priority=0 id=1347200145 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8135566" lon="15.9838733">
+<time>2012-08-23T19:02:56+00:00</time>
 <name>dra&#x161;kovi&#x107;eva sjever, a,</name>
-<cmt>priority=0 id=1345748576 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8135583" lon="15.964565">
+<time>2012-09-06T18:27:13+00:00</time>
 <name>101, britanski trg, gornje prekri&#x17E;je</name>
-<cmt>priority=0 id=1346956033 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.81357" lon="15.96456">
+<time>2012-09-06T18:27:49+00:00</time>
 <name>138, britanski trg, zelemgaj</name>
-<cmt>priority=0 id=1346956069 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.813665" lon="15.9646433">
+<time>2012-09-06T18:26:30+00:00</time>
 <name>britanski trg, dolazni peron</name>
-<cmt>priority=0 id=1346955990 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8137366" lon="15.9868666">
+<time>2012-08-23T18:57:04+00:00</time>
 <name>von&#x10D;inina istok</name>
-<cmt>priority=0 id=1345748224 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8137566" lon="15.9645333">
+<time>2012-09-06T18:29:27+00:00</time>
 <name>105, britanski trg, kaptol</name>
-<cmt>priority=0 id=1346956167 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.81376" lon="15.96455">
+<time>2012-09-06T18:28:59+00:00</time>
 <name>102, britanski trg, mihaljevac</name>
-<cmt>priority=0 id=1346956139 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8137616" lon="16.01807">
+<time>2012-08-24T12:46:45+00:00</time>
 <name>borongaj zadnja, istok</name>
-<cmt>priority=0 id=1345812405 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8138099" lon="15.9974383">
+<time>2012-09-09T14:13:17+00:00</time>
 <name>202, kvaternikov trg, kozjak</name>
-<cmt>priority=0 id=1347199997 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8138366" lon="15.99767">
+<time>2012-09-09T14:14:14+00:00</time>
 <name>201, kvaternikov trg, kaptol</name>
-<cmt>priority=0 id=1347200054 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8138716" lon="15.9290866">
+<time>2010-03-28T16:14:19+00:00</time>
 <name>kusto&#x161;ijanska autobus istok</name>
-<cmt>priority=0 id=1269792859 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8139383" lon="15.9965433">
+<time>2012-08-23T18:17:09+00:00</time>
 <name>tr&#x17E;nica kvatri&#x107; sjever</name>
-<cmt>priority=0 id=1345745829 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8140499" lon="15.9913016">
+<time>2012-08-23T18:47:57+00:00</time>
 <name>petrova istok</name>
-<cmt>priority=0 id=1345747677 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8142299" lon="15.96393">
+<time>2012-09-06T18:25:18+00:00</time>
 <name>103, britanski trg, kraljevec</name>
-<cmt>priority=0 id=1346955918 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8147166" lon="15.9972716">
+<time>2012-08-23T18:34:24+00:00</time>
 <name>kvaternikov trg sjever</name>
-<cmt>priority=0 id=1345746864 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8147249" lon="16.008025">
+<time>2012-08-24T13:05:45+00:00</time>
 <name>haramba&#x161;i&#x107;eva istok</name>
-<cmt>priority=0 id=1345813545 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8148133" lon="15.9966166">
+<time>2012-08-23T18:37:34+00:00</time>
 <name>kvaternikov trg istok</name>
-<cmt>priority=0 id=1345747054 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.814935" lon="15.93382">
+<time>2012-08-28T17:43:26+00:00</time>
 <name>109, &#x10D;rnomerec, dugave</name>
-<cmt>priority=0 id=1346175806 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8149366" lon="15.93382">
+<time>2012-08-28T17:44:53+00:00</time>
 <name>146, reljkovi&#x107;eva, male&#x161;nica, jankomir</name>
-<cmt>priority=0 id=1346175893 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8149683" lon="15.9342866">
+<time>2012-08-28T17:46:06+00:00</time>
 <name>&#x10D;rnomerec, dolazni peron istok</name>
-<cmt>priority=0 id=1346175966 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8150633" lon="15.934255">
+<time>2012-08-24T17:45:25+00:00</time>
 <name>&#x10D;rnomerec po&#x10D;etna, istok, b,</name>
-<cmt>priority=0 id=1345830325 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8151083" lon="15.9346716">
+<time>2012-08-24T17:44:21+00:00</time>
 <name>&#x10D;rnomerec po&#x10D;etna, istok, a,</name>
-<cmt>priority=0 id=1345830261 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.815155" lon="15.9786916">
+<time>2012-09-07T17:05:09+00:00</time>
 <name>105 kaptol, britanski trg</name>
-<cmt>priority=0 id=1347037509 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8151649" lon="15.836225">
+<time>2012-05-29T17:34:41+00:00</time>
 <name>podsused ljubljanica po&#x10D;etna</name>
-<cmt>priority=0 id=1338312881 userid=31691 </cmt>
+<cmt>priority=0 userid=31691</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.815235" lon="15.9332066">
+<time>2009-12-30T07:38:22+00:00</time>
 <name>&#x10D;rnomerec autobus okreti&#x161;te</name>
-<cmt>priority=0 id=1262158702 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8152816" lon="16.0126866">
+<time>2012-08-24T12:35:38+00:00</time>
 <name>svetice istok</name>
-<cmt>priority=0 id=1345811738 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8153183" lon="15.9787816">
+<time>2012-09-07T17:19:50+00:00</time>
 <name>kaptol dolazni peron</name>
-<cmt>priority=0 id=1347038390 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8153283" lon="15.9332266">
+<time>2012-08-28T17:42:11+00:00</time>
 <name>&#x10D;rnomerec, dolazni peron zapad</name>
-<cmt>priority=0 id=1346175731 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8153883" lon="15.9787316">
+<time>2012-09-07T17:06:00+00:00</time>
 <name>201 kaptol, kvaternikov trg</name>
-<cmt>priority=0 id=1347037560 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8153983" lon="15.9787416">
+<time>2012-09-07T17:06:37+00:00</time>
 <name>238 kaptol, kozjak</name>
-<cmt>priority=0 id=1347037597 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8155" lon="15.9338966">
+<time>2009-12-30T07:42:18+00:00</time>
 <name>128 &#x10D;rnomerec luksi&#x107;i autobus po&#x10D;etna</name>
-<cmt>priority=0 id=1262158938 userid=51133 </cmt>
+<cmt>priority=0 userid=51133</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.815505" lon="15.9337066">
+<time>2012-08-28T17:39:52+00:00</time>
 <name>127, &#x10D;rnomerec, mikuli&#x107;i</name>
-<cmt>priority=0 id=1346175592 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8155366" lon="15.9343766">
+<time>2012-08-28T17:33:57+00:00</time>
 <name>119, &#x10D;rnomerec, podsused</name>
-<cmt>priority=0 id=1346175237 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8155399" lon="15.9343733">
+<time>2012-08-28T17:34:29+00:00</time>
 <name>120, &#x10D;rnomerec, gajnice</name>
-<cmt>priority=0 id=1346175269 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8155466" lon="15.9339816">
+<time>2012-08-28T17:39:14+00:00</time>
 <name>128, &#x10D;rnomerec, luk&#x161;i&#x107;i</name>
-<cmt>priority=0 id=1346175554 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8155683" lon="15.9341833">
+<time>2012-08-28T17:37:47+00:00</time>
 <name>122, &#x10D;rnomerec, susedgrad</name>
-<cmt>priority=0 id=1346175467 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8155683" lon="15.9341849">
+<time>2012-08-28T17:38:32+00:00</time>
 <name>123, &#x10D;rnomerec, podsusedsko dolje</name>
-<cmt>priority=0 id=1346175512 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8155733" lon="15.9346366">
+<time>2012-08-28T17:32:58+00:00</time>
 <name>136, &#x10D;rnomerec, &#x161;pansko</name>
-<cmt>priority=0 id=1346175178 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8156216" lon="15.9334733">
+<time>2012-08-28T17:50:02+00:00</time>
 <name>177, &#x10D;rnomerec, poljanica, gornja bistra</name>
-<cmt>priority=0 id=1346176202 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8156333" lon="15.933465">
+<time>2012-08-28T17:49:11+00:00</time>
 <name>176, &#x10D;rnomerec, gornja bistra</name>
-<cmt>priority=0 id=1346176151 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8156333" lon="15.978695">
+<time>2012-09-07T17:07:25+00:00</time>
 <name>106 kaptol, mirogoj - krematorij</name>
-<cmt>priority=0 id=1347037645 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8156616" lon="15.9786983">
+<time>2012-09-07T17:07:59+00:00</time>
 <name>226 kaptol, svetice</name>
-<cmt>priority=0 id=1347037679 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8156683" lon="15.9336866">
+<time>2012-08-28T17:51:46+00:00</time>
 <name>124, &#x10D;rnomerec, gornji stenjevec</name>
-<cmt>priority=0 id=1346176306 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8156683" lon="15.9336883">
+<time>2012-08-28T17:52:21+00:00</time>
 <name>131, &#x10D;rnomerec, bizek</name>
-<cmt>priority=0 id=1346176341 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8157049" lon="15.9336483">
+<time>2012-08-28T17:53:13+00:00</time>
 <name>134, &#x10D;rnomerec, pre&#x10D;ko</name>
-<cmt>priority=0 id=1346176393 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8157233" lon="15.9338483">
+<time>2012-08-28T17:54:39+00:00</time>
 <name>121, &#x10D;rnomerec, kara&#x17E;nik, gajnice</name>
-<cmt>priority=0 id=1346176479 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.815725" lon="15.93385">
+<time>2012-08-28T17:55:21+00:00</time>
 <name>130, &#x10D;rnomerec, bor&#x10D;ec</name>
-<cmt>priority=0 id=1346176521 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.81577" lon="15.93396">
+<time>2012-08-28T17:56:54+00:00</time>
 <name>137, &#x10D;rnomerec, perjavica, bor&#x10D;ec</name>
-<cmt>priority=0 id=1346176614 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8157783" lon="15.9339533">
+<time>2012-08-28T17:56:10+00:00</time>
 <name>125, &#x10D;rnomerec, gornje vrap&#x10D;e</name>
-<cmt>priority=0 id=1346176570 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8158" lon="15.93402">
+<time>2012-08-28T18:36:04+00:00</time>
 <name>126, &#x10D;rnomerec, gornja kusto&#x161;ija, krvari&#x107;</name>
-<cmt>priority=0 id=1346178964 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8158033" lon="15.93402">
+<time>2012-08-28T18:36:41+00:00</time>
 <name>135, &#x10D;rnomerec, graberje</name>
-<cmt>priority=0 id=1346179001 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.815815" lon="15.9342616">
+<time>2012-08-28T18:37:38+00:00</time>
 <name>172, &#x10D;rnomerec, zapre&#x161;i&#x107;</name>
-<cmt>priority=0 id=1346179058 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.816625" lon="16.0027466">
+<time>2012-08-27T17:41:04+00:00</time>
 <name>ma&#x161;i&#x107;eva istok</name>
-<cmt>priority=0 id=1346089264 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8176633" lon="16.0131633">
+<time>2012-09-09T11:09:48+00:00</time>
 <name>227, svetice, gornji bukovac, &#x10D;ret</name>
-<cmt>priority=0 id=1347188988 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.81768" lon="16.0075683">
+<time>2012-08-27T17:42:55+00:00</time>
 <name>jordanovac istok</name>
-<cmt>priority=0 id=1346089375 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.81785" lon="16.0131233">
+<time>2012-09-09T11:10:51+00:00</time>
 <name>203, svetice, vinec, krematorij</name>
-<cmt>priority=0 id=1347189051 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8178683" lon="16.0130966">
+<time>2012-09-09T11:11:44+00:00</time>
 <name>226, svetice, remete, kaptol</name>
-<cmt>priority=0 id=1347189104 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8181933" lon="16.0130833">
+<time>2012-09-09T11:12:39+00:00</time>
 <name>228, svetice, k b c rebro</name>
-<cmt>priority=0 id=1347189159 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8189016" lon="16.0138966">
+<time>2012-08-27T17:44:19+00:00</time>
 <name>bukova&#x10D;ka istok</name>
-<cmt>priority=0 id=1346089459 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.819365" lon="16.0127616">
+<time>2012-09-09T11:15:19+00:00</time>
 <name>svetice, dolazni peron</name>
-<cmt>priority=0 id=1347189319 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.819475" lon="15.9797733">
+<time>2012-08-26T08:14:11+00:00</time>
 <name>gr&#x161;kovi&#x107;eva sjever</name>
-<cmt>priority=0 id=1345968851 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.819755" lon="15.9376816">
+<time>2012-08-28T18:21:47+00:00</time>
 <name>autobusna postaja sveti duh, smjer, b,</name>
-<cmt>priority=0 id=1346178107 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.81983" lon="15.9378333">
+<time>2012-08-28T18:03:59+00:00</time>
 <name>autobusna postaja sveti duh, smjer, a,</name>
-<cmt>priority=0 id=1346177039 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8209366" lon="16.02252">
+<time>2012-08-27T17:45:54+00:00</time>
 <name>hondlova istok</name>
-<cmt>priority=0 id=1346089554 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8216766" lon="15.980115">
+<time>2012-08-26T08:14:58+00:00</time>
 <name>belosten&#x10D;eva sjever</name>
-<cmt>priority=0 id=1345968898 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8219549" lon="16.0272766">
+<time>2012-08-27T17:46:55+00:00</time>
 <name>ravnice istok</name>
-<cmt>priority=0 id=1346089615 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.824445" lon="16.0373549">
+<time>2012-08-27T17:49:46+00:00</time>
 <name>dubrava okreti&#x161;te, peron 2, linija 12,</name>
-<cmt>priority=0 id=1346089786 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8244566" lon="16.0371633">
+<time>2012-08-27T18:03:30+00:00</time>
 <name>223, dubrava, dubec</name>
-<cmt>priority=0 id=1346090610 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.824535" lon="16.0363283">
+<time>2012-08-27T19:17:09+00:00</time>
 <name>dubrava, okreti&#x161;te, dolazni peron, sjever</name>
-<cmt>priority=0 id=1346095029 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8245416" lon="16.0374016">
+<time>2012-08-27T17:57:03+00:00</time>
 <name>dubrava okreti&#x161;te, peron 3, linija 7</name>
-<cmt>priority=0 id=1346090223 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8245916" lon="16.03738">
+<time>2012-08-27T18:04:39+00:00</time>
 <name>209, dubrava, gornje &#x10D;u&#x10D;erje</name>
-<cmt>priority=0 id=1346090679 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8246166" lon="16.0377716">
+<time>2012-08-27T18:05:42+00:00</time>
 <name>206, dubrava, miro&#x161;evec</name>
-<cmt>priority=0 id=1346090742 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8247033" lon="16.0367716">
+<time>2012-08-27T18:09:13+00:00</time>
 <name>230, dubrava, grane&#x161;inski novaki</name>
-<cmt>priority=0 id=1346090953 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8247066" lon="16.0372666">
+<time>2012-08-27T19:19:40+00:00</time>
 <name>dubrava, okreti&#x161;te, dolazni peron, istok</name>
-<cmt>priority=0 id=1346095180 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8247683" lon="16.0398933">
+<time>2012-08-27T18:22:20+00:00</time>
 <name>dubrava dubec, istok</name>
-<cmt>priority=0 id=1346091740 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8248566" lon="16.0367433">
+<time>2012-08-27T18:10:33+00:00</time>
 <name>205, dubrava, bidrovec-brana</name>
-<cmt>priority=0 id=1346091033 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8248583" lon="16.0367416">
+<time>2012-08-27T18:11:07+00:00</time>
 <name>232, dubrava, jazbina</name>
-<cmt>priority=0 id=1346091067 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.82501" lon="16.0368633">
+<time>2012-08-27T18:07:52+00:00</time>
 <name>210, dubrava, studentski grad, klin</name>
-<cmt>priority=0 id=1346090872 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8250116" lon="16.0366866">
+<time>2012-08-27T18:13:01+00:00</time>
 <name>208, dubrava, vidovec</name>
-<cmt>priority=0 id=1346091181 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8252216" lon="16.03662">
+<time>2012-08-27T18:13:43+00:00</time>
 <name>213, dubrava, jal&#x161;evec</name>
-<cmt>priority=0 id=1346091223 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.82632" lon="16.04518">
+<time>2012-08-27T19:25:21+00:00</time>
 <name>ljubijska istok</name>
-<cmt>priority=0 id=1346095521 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8273616" lon="15.98019">
+<time>2012-08-26T08:16:22+00:00</time>
 <name>gup&#x10D;eva zvijezda sjever</name>
-<cmt>priority=0 id=1345968982 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8275516" lon="16.0485066">
+<time>2012-08-27T19:26:15+00:00</time>
 <name>kapucinska istok</name>
-<cmt>priority=0 id=1346095575 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8278666" lon="16.078195">
+<time>2012-08-27T19:39:56+00:00</time>
 <name>212, dubec, sesvete</name>
-<cmt>priority=0 id=1346096396 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8278766" lon="16.07798">
+<time>2012-08-27T19:36:13+00:00</time>
 <name>dubec okreti&#x161;te, peron 1, linija 4,</name>
-<cmt>priority=0 id=1346096173 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8279049" lon="16.0777633">
+<time>2012-08-27T19:37:16+00:00</time>
 <name>dubec okreti&#x161;te, peron 2, linija 11,</name>
-<cmt>priority=0 id=1346096236 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8279933" lon="16.0776666">
+<time>2012-08-27T19:38:48+00:00</time>
 <name>dubec, dolazni peron</name>
-<cmt>priority=0 id=1346096328 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8279949" lon="16.07808">
+<time>2012-08-27T19:41:17+00:00</time>
 <name>263, dubec, sesvete, ka&#x161;ina, planina gornja</name>
-<cmt>priority=0 id=1346096477 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8280233" lon="16.0778">
+<time>2012-08-27T19:43:46+00:00</time>
 <name>262, dubec, sesvete, planina donja</name>
-<cmt>priority=0 id=1346096626 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8280249" lon="16.0777883">
+<time>2012-08-27T19:42:44+00:00</time>
 <name>261, dubec, sesvete, goranec</name>
-<cmt>priority=0 id=1346096564 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8281533" lon="16.0726216">
+<time>2012-08-27T19:32:18+00:00</time>
 <name>poljanice &#x10D;etvrte</name>
-<cmt>priority=0 id=1346095938 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8281583" lon="16.0781016">
+<time>2012-08-27T19:52:05+00:00</time>
 <name>224, dubec, novoselec</name>
-<cmt>priority=0 id=1346097125 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8282066" lon="16.0778066">
+<time>2012-08-27T19:53:14+00:00</time>
 <name>280, dubec, &#x161;imun&#x10D;evec</name>
-<cmt>priority=0 id=1346097194 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.82827" lon="16.07833">
+<time>2012-08-27T19:59:13+00:00</time>
 <name>270, dubec, sesvete, blagu&#x161;a</name>
-<cmt>priority=0 id=1346097553 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8282966" lon="16.0776066">
+<time>2012-08-27T19:54:15+00:00</time>
 <name>224, dubec, trnov&#x10D;ica-dubrava</name>
-<cmt>priority=0 id=1346097255 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8283233" lon="16.0780783">
+<time>2012-08-27T19:58:17+00:00</time>
 <name>274, dubec, sesvete, laktec</name>
-<cmt>priority=0 id=1346097497 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8283983" lon="16.077785">
+<time>2012-08-27T19:57:33+00:00</time>
 <name>273, dubec, sesvete, lu&#x17E;an</name>
-<cmt>priority=0 id=1346097453 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8284166" lon="16.0774733">
+<time>2012-08-27T19:55:40+00:00</time>
 <name>271, dubec, sesvete, jasenovac, glavnica donja</name>
-<cmt>priority=0 id=1346097340 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8284183" lon="16.0774733">
+<time>2012-08-27T19:56:21+00:00</time>
 <name>272, dubec, sesvete, morav&#x10D;e</name>
-<cmt>priority=0 id=1346097381 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8285366" lon="16.0693566">
+<time>2012-08-27T19:31:31+00:00</time>
 <name>aleja javora istok</name>
-<cmt>priority=0 id=1346095891 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8287066" lon="16.0635216">
+<time>2012-08-27T19:29:43+00:00</time>
 <name>&#x10D;uline&#x10D;ka istok</name>
-<cmt>priority=0 id=1346095783 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8287283" lon="16.0521333">
+<time>2012-08-27T19:27:12+00:00</time>
 <name>gri&#x17E;anska istok</name>
-<cmt>priority=0 id=1346095632 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8295383" lon="16.0564883">
+<time>2012-08-27T19:28:26+00:00</time>
 <name>dankove&#x10D;ka istok</name>
-<cmt>priority=0 id=1346095706 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8302266" lon="16.03424">
+<time>2012-08-27T19:02:50+00:00</time>
 <name>oporove&#x10D;ka, smjer, b,</name>
-<cmt>priority=0 id=1346094170 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>10</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8312466" lon="15.9786433">
+<time>2012-08-26T08:17:45+00:00</time>
 <name>radi&#x107;evo &#x161;etali&#x161;te sjever</name>
-<cmt>priority=0 id=1345969065 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8318833" lon="16.0339583">
+<time>2012-08-27T18:37:01+00:00</time>
 <name>oporove&#x10D;ka, smjer, a,</name>
-<cmt>priority=0 id=1346092621 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8334416" lon="16.0331616">
+<time>2012-08-27T18:57:35+00:00</time>
 <name>k b c dubrava, smjer, b,</name>
-<cmt>priority=0 id=1346093855 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8346" lon="16.0334449">
+<time>2012-08-27T18:38:40+00:00</time>
 <name>k b c dubrava, smjer, a,</name>
-<cmt>priority=0 id=1346092720 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>11</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8360199" lon="15.9780483">
+<time>2012-08-26T08:18:57+00:00</time>
 <name>jandri&#x107;eva sjever</name>
-<cmt>priority=0 id=1345969137 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.841755" lon="15.9748866">
+<time>2012-08-26T08:21:29+00:00</time>
 <name>mihaljevac 14 sjever</name>
-<cmt>priority=0 id=1345969289 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.84191" lon="15.9753283">
+<time>2014-03-22T09:14:02+00:00</time>
 <name>autobus mihaljevac sljeme po&#x10D;etna</name>
-<cmt>priority=0 id=1395479642 userid=33999 </cmt>
+<cmt>priority=0 userid=33999</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8423283" lon="15.9751116">
+<time>2012-08-26T08:23:36+00:00</time>
 <name>mihaljevac 15 sjever</name>
-<cmt>priority=0 id=1345969416 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8489949" lon="15.9754266">
+<time>2012-08-26T08:24:59+00:00</time>
 <name>gra&#x10D;anske stube sjever</name>
-<cmt>priority=0 id=1345969499 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>7</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8540416" lon="15.9733066">
+<time>2012-08-26T08:26:17+00:00</time>
 <name>gra&#x10D;anski mihaljevac sjever</name>
-<cmt>priority=0 id=1345969577 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>9</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8582216" lon="15.97399">
+<time>2012-08-26T08:27:29+00:00</time>
 <name>gra&#x10D;ani sjever</name>
-<cmt>priority=0 id=1345969649 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.86056" lon="15.9815866">
+<time>2012-08-26T08:28:56+00:00</time>
 <name>dolje sjever</name>
-<cmt>priority=0 id=1345969736 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
 <wpt lat="45.8979033" lon="15.9466266">
+<time>2012-07-28T19:54:32+00:00</time>
 <name>autobus sljeme po&#x10D;etna</name>
-<cmt>priority=0 id=1343505272 userid=53001 </cmt>
+<cmt>priority=0 userid=53001</cmt>
 <sat>8</sat>
 <pdop>1</pdop>
 </wpt>
