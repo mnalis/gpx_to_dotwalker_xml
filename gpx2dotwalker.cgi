@@ -28,6 +28,23 @@ $| = 1;
 die "can't find $g2x_path" unless -r $g2x_path;
 die "can't find $l2g_path" unless -r $l2g_path;
 
+
+# detect file format: return gpx or lsdb or unknown.
+sub detect_format($)
+{
+	my ($filename) = @_;
+	open my $fd, '<', $filename;
+	my $line = <>;
+	if ($line =~ /<xml/) {
+		return 'gpx';	# FIXME: assume XML file is gpx. we should be smarter...
+	} elsif ($line =~ /^#!lsdb/) {
+		return 'lsdb';
+	} else {
+		return 'UNKNOWN';
+	}
+}
+
+# here goes main
 my $VERSION;
 {
 open my $help_fd, '-|', "$PERL $g2x_path";
