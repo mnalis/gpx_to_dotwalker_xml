@@ -34,7 +34,7 @@ sub detect_format($)
 {
 	my ($filename) = @_;
 	open my $fd, '<', $filename;
-	my $line = <>;
+	my $line = <$fd>;
 	if ($line =~ /<xml/) {
 		return 'gpx';	# FIXME: assume XML file is gpx. we should be smarter...
 	} elsif ($line =~ /^#!lsdb/) {
@@ -81,7 +81,9 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	print header (-charset => 'utf-8'),
 	start_html (-title => 'GPX to Dotwalker XML converter'),
 	h1("GPX/Loadstone to Dotwalker XML converter $VERSION" ),
-	'Input file should be Loadstone export .TXT file, or .GPX in extended format with descriptions, like the one from ', a({-href => 'http://graphhopper.com/maps/'}, 'GraphHopper.com'),
+	'Input file should be Loadstone export .TXT file,',
+	br,
+	'or .GPX in extended format with descriptions, like the one from ', a({-href => 'http://graphhopper.com/maps/'}, 'GraphHopper.com'),
 	br,
 	'Output will be routing .XML file for Dotwalker Android GPS application (you must save it in Dotwalker as "route.xml")',
 	start_form,
