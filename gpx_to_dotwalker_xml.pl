@@ -25,7 +25,7 @@ use XML::LibXML;
 local $XML::LibXML::setTagCompression = 1;	# As we don't know if Dotwalker supports <Description /> short-empty-tag, use the value we know it supports <Description></Description>
 binmode STDOUT, ':utf8';	# our terminal is UTF-8 capable (we hope)
 
-my $VERSION = '0.83';
+my $VERSION = '0.84';
 
 # returns title and description (as first and second preferred tags)
 sub get_title_desc($) {
