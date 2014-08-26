@@ -90,7 +90,7 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	start_form,
 	h2('Select GPX or Loadstone file'),
 	filefield (-name => 'gpx_file'),
-	submit (-label => 'Upload'),
+	submit (-label => 'Convert and Download'),
 	end_form,
 	p($AUTHOR . br . $SOURCE . br . $CREDITS),
 	end_html;
