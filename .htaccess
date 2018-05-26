@@ -1,3 +1,5 @@
 <FilesMatch "\.pl$">
     ForceType text/plain
 </FilesMatch>
+
+RemoveHandler cgi-script .pl
