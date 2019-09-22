@@ -79,7 +79,9 @@ if (defined $gpx_fd) {			# gpx file uploaded, process it
 	die "should never reach here; did $g2x_path or $l2g_path fail? $?";
 } else {				# no params, show form
 	print header (-charset => 'utf-8'),
-	start_html (-title => 'GPX to Dotwalker XML converter'),
+	start_html (	-title => 'GPX to Dotwalker XML converter',
+			-lang => 'en',
+			-meta => { viewport => 'width=device-width,initial-scale=1' } ),
 	h1("GPX/Loadstone to Dotwalker XML converter $VERSION" ),
 	'Input file should be one of:',
 	ul(
